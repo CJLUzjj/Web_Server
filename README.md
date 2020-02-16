@@ -13,8 +13,6 @@
 感谢陈硕的《Linux多线程服务端编程》给我很大的启发，我很多的设计思路都来源于https://github.com/chenshuo/muduo  
  
 编译方式很简单，安装MakeFile,GCC版本能支持C++11,直接在当前目录make即可  
-
-[测试页](http://119.29.214.40)
  
 qq:849816104  
 wechat:pnzz849816104
