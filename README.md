@@ -1,21 +1,34 @@
 # Web_Server  
 
-这是一个基于one loop per thread + thread pool模型设计的Web Server，可以实现get,head,post请求  
+## 简介
+1. 这是一个基于one loop per thread + thread pool模型设计的Web Server，可以实现get,head,post请求  
  
-用RAII封装了互斥锁 条件变量,另外还封装了线程 生产者消费者队列 Epoll等  
+2. 用RAII封装了互斥锁 条件变量,另外还封装了线程 生产者消费者队列 Epoll等  
  
-项目中使用了大量C++11中的std::function函数和std::bind函数用于事件的回调和绑定  
+3. 项目中使用了大量C++11中的std::function函数和std::bind函数用于事件的回调和绑定  
  
-实现了前后端分离的异步日志  
+4. 实现了前后端分离的异步日志  
  
 感谢陈硕的《Linux多线程服务端编程》给我很大的启发，我很多的设计思路都来源于这本书
- 
-编译方式很简单，安装MakeFile,GCC版本能支持C++11,直接在当前目录make即可  
+
+## Envoirment
+
+* OS: CentOS 7.6
+* Complier: g++ 4.8
+
+## Build
+
+```
+make
+```
+
+## Run
+
+```
+./server
+```
 
 测试页（我的简历）：http://zhujjqaq.xyz （请使用Chrome浏览器打开）
- 
-qq:849816104  
-wechat:pnzz849816104
 
  
 项目结构如下:  
@@ -62,6 +75,3 @@ Thread.{h,cpp}              线程封装
 
 ThreadPool.{h,cpp}          线程池封装
 ```
-  
-  
-代码总长度(含测试代码)：3772行(主要之前想写一个网络库的，后来临时改主意写了web server所以多了蛮多的冗余代码,去掉注释和缩进的话,应该在2000行左右)  
