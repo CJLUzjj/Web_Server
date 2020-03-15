@@ -1,0 +1,2010 @@
+2020-03-05 15:44:56
+Eventloop created in thread0 -- EventLoop.cpp:31
+2020-03-05 15:44:56
+default fd = 4 events = -2147483645 index = -1 -- Epoller.cpp:71
+2020-03-05 15:44:56
+default epoll_ctl op = ADD fd = 4 event = { 4: IN PRI  } -- Epoller.cpp:109
+2020-03-05 15:44:56
+listen  port:80 -- Operation.cpp:41
+2020-03-05 15:44:56
+Eventloop created in thread29624 -- EventLoop.cpp:31
+2020-03-05 15:44:56
+thread_pool0 fd = 8 events = -2147483645 index = -1 -- Epoller.cpp:71
+2020-03-05 15:44:56
+thread_pool0 epoll_ctl op = ADD fd = 8 event = { 8: IN PRI  } -- Epoller.cpp:109
+2020-03-05 15:44:56
+EventLoop start looping -- EventLoop.cpp:61
+2020-03-05 15:44:56
+thread_pool0 fd total count 1 -- Epoller.cpp:29
+2020-03-05 15:44:56
+default fd = 6 events = -2147483645 index = -1 -- Epoller.cpp:71
+2020-03-05 15:44:56
+default epoll_ctl op = ADD fd = 6 event = { 6: IN PRI  } -- Epoller.cpp:109
+2020-03-05 15:44:56
+EventLoop start looping -- EventLoop.cpp:61
+2020-03-05 15:44:56
+default fd total count 2 -- Epoller.cpp:29
+2020-03-05 15:45:06
+thread_pool0 nothing hanppened -- Epoller.cpp:43
+2020-03-05 15:45:06
+thread_pool0 fd total count 1 -- Epoller.cpp:29
+2020-03-05 15:45:06
+default nothing hanppened -- Epoller.cpp:43
+2020-03-05 15:45:06
+default fd total count 2 -- Epoller.cpp:29
+2020-03-05 15:45:06
+default 1 events happened -- Epoller.cpp:36
+2020-03-05 15:45:06
+{6: IN } -- EventLoop.cpp:69
+2020-03-05 15:45:06
+6: IN  -- Channel.cpp:50
+2020-03-05 15:45:06
+New connection from 112.11.87.60:26354 -- Server.cpp:60
+2020-03-05 15:45:06
+default fd total count 2 -- Epoller.cpp:29
+2020-03-05 15:45:06
+thread_pool0 1 events happened -- Epoller.cpp:36
+2020-03-05 15:45:06
+{8: IN } -- EventLoop.cpp:69
+2020-03-05 15:45:06
+8: IN  -- Channel.cpp:50
+2020-03-05 15:45:06
+thread_pool0 fd = 9 events = -2147483645 index = -1 -- Epoller.cpp:71
+2020-03-05 15:45:06
+thread_pool0 epoll_ctl op = ADD fd = 9 event = { 9: IN PRI  } -- Epoller.cpp:109
+2020-03-05 15:45:06
+thread_pool0 fd total count 2 -- Epoller.cpp:29
+2020-03-05 15:45:06
+thread_pool0 1 events happened -- Epoller.cpp:36
+2020-03-05 15:45:06
+{9: IN } -- EventLoop.cpp:69
+2020-03-05 15:45:06
+9: IN  -- Channel.cpp:50
+2020-03-05 15:45:06
+thread_pool0 fd = 9 events = -2147483645 index = 1 -- Epoller.cpp:71
+2020-03-05 15:45:06
+thread_pool0 epoll_ctl op = MOD fd = 9 event = { 9: IN PRI  } -- Epoller.cpp:109
+2020-03-05 15:45:06
+thread_pool0 fd total count 2 -- Epoller.cpp:29
+2020-03-05 15:45:06
+default 1 events happened -- Epoller.cpp:36
+2020-03-05 15:45:06
+{6: IN } -- EventLoop.cpp:69
+2020-03-05 15:45:06
+6: IN  -- Channel.cpp:50
+2020-03-05 15:45:06
+New connection from 112.11.87.60:26441 -- Server.cpp:60
+2020-03-05 15:45:06
+default fd total count 2 -- Epoller.cpp:29
+2020-03-05 15:45:06
+thread_pool0 1 events happened -- Epoller.cpp:36
+2020-03-05 15:45:06
+{8: IN } -- EventLoop.cpp:69
+2020-03-05 15:45:06
+8: IN  -- Channel.cpp:50
+2020-03-05 15:45:06
+thread_pool0 fd = 10 events = -2147483645 index = -1 -- Epoller.cpp:71
+2020-03-05 15:45:06
+thread_pool0 epoll_ctl op = ADD fd = 10 event = { 10: IN PRI  } -- Epoller.cpp:109
+2020-03-05 15:45:06
+thread_pool0 fd total count 3 -- Epoller.cpp:29
+2020-03-05 15:45:06
+thread_pool0 1 events happened -- Epoller.cpp:36
+2020-03-05 15:45:06
+{9: IN } -- EventLoop.cpp:69
+2020-03-05 15:45:06
+9: IN  -- Channel.cpp:50
+2020-03-05 15:45:06
+thread_pool0 fd = 9 events = -2147483641 index = 1 -- Epoller.cpp:71
+2020-03-05 15:45:06
+thread_pool0 epoll_ctl op = MOD fd = 9 event = { 9: IN PRI OUT  } -- Epoller.cpp:109
+2020-03-05 15:45:06
+thread_pool0 fd = 9 events = 4 index = 1 -- Epoller.cpp:71
+2020-03-05 15:45:06
+thread_pool0 epoll_ctl op = MOD fd = 9 event = { 9: OUT  } -- Epoller.cpp:109
+2020-03-05 15:45:06
+thread_pool0 fd total count 3 -- Epoller.cpp:29
+2020-03-05 15:45:06
+thread_pool0 1 events happened -- Epoller.cpp:36
+2020-03-05 15:45:06
+{9: OUT } -- EventLoop.cpp:69
+2020-03-05 15:45:06
+9: OUT  -- Channel.cpp:50
+2020-03-05 15:45:06
+thread_pool0 fd = 9 events = 4 index = 1 -- Epoller.cpp:71
+2020-03-05 15:45:06
+thread_pool0 epoll_ctl op = MOD fd = 9 event = { 9: OUT  } -- Epoller.cpp:109
+2020-03-05 15:45:06
+thread_pool0 fd = 9 events = 4 index = 1 -- Epoller.cpp:71
+2020-03-05 15:45:06
+thread_pool0 epoll_ctl op = MOD fd = 9 event = { 9: OUT  } -- Epoller.cpp:109
+2020-03-05 15:45:06
+thread_pool0 fd total count 3 -- Epoller.cpp:29
+2020-03-05 15:45:06
+thread_pool0 1 events happened -- Epoller.cpp:36
+2020-03-05 15:45:06
+{9: OUT } -- EventLoop.cpp:69
+2020-03-05 15:45:06
+9: OUT  -- Channel.cpp:50
+2020-03-05 15:45:06
+thread_pool0 fd = 9 events = 4 index = 1 -- Epoller.cpp:71
+2020-03-05 15:45:06
+thread_pool0 epoll_ctl op = MOD fd = 9 event = { 9: OUT  } -- Epoller.cpp:109
+2020-03-05 15:45:06
+thread_pool0 fd = 9 events = 4 index = 1 -- Epoller.cpp:71
+2020-03-05 15:45:06
+thread_pool0 epoll_ctl op = MOD fd = 9 event = { 9: OUT  } -- Epoller.cpp:109
+2020-03-05 15:45:06
+thread_pool0 fd total count 3 -- Epoller.cpp:29
+2020-03-05 15:45:06
+thread_pool0 1 events happened -- Epoller.cpp:36
+2020-03-05 15:45:06
+{9: OUT } -- EventLoop.cpp:69
+2020-03-05 15:45:06
+9: OUT  -- Channel.cpp:50
+2020-03-05 15:45:06
+thread_pool0 fd = 9 events = 4 index = 1 -- Epoller.cpp:71
+2020-03-05 15:45:06
+thread_pool0 epoll_ctl op = MOD fd = 9 event = { 9: OUT  } -- Epoller.cpp:109
+2020-03-05 15:45:06
+thread_pool0 fd = 9 events = 4 index = 1 -- Epoller.cpp:71
+2020-03-05 15:45:06
+thread_pool0 epoll_ctl op = MOD fd = 9 event = { 9: OUT  } -- Epoller.cpp:109
+2020-03-05 15:45:06
+thread_pool0 fd total count 3 -- Epoller.cpp:29
+2020-03-05 15:45:06
+thread_pool0 1 events happened -- Epoller.cpp:36
+2020-03-05 15:45:06
+{9: OUT } -- EventLoop.cpp:69
+2020-03-05 15:45:06
+9: OUT  -- Channel.cpp:50
+2020-03-05 15:45:06
+thread_pool0 fd = 9 events = 4 index = 1 -- Epoller.cpp:71
+2020-03-05 15:45:06
+thread_pool0 epoll_ctl op = MOD fd = 9 event = { 9: OUT  } -- Epoller.cpp:109
+2020-03-05 15:45:06
+thread_pool0 fd = 9 events = 4 index = 1 -- Epoller.cpp:71
+2020-03-05 15:45:06
+thread_pool0 epoll_ctl op = MOD fd = 9 event = { 9: OUT  } -- Epoller.cpp:109
+2020-03-05 15:45:06
+thread_pool0 fd total count 3 -- Epoller.cpp:29
+2020-03-05 15:45:07
+thread_pool0 1 events happened -- Epoller.cpp:36
+2020-03-05 15:45:07
+{9: OUT } -- EventLoop.cpp:69
+2020-03-05 15:45:07
+9: OUT  -- Channel.cpp:50
+2020-03-05 15:45:07
+thread_pool0 fd = 9 events = 4 index = 1 -- Epoller.cpp:71
+2020-03-05 15:45:07
+thread_pool0 epoll_ctl op = MOD fd = 9 event = { 9: OUT  } -- Epoller.cpp:109
+2020-03-05 15:45:07
+thread_pool0 fd = 9 events = 4 index = 1 -- Epoller.cpp:71
+2020-03-05 15:45:07
+thread_pool0 epoll_ctl op = MOD fd = 9 event = { 9: OUT  } -- Epoller.cpp:109
+2020-03-05 15:45:07
+thread_pool0 fd total count 3 -- Epoller.cpp:29
+2020-03-05 15:45:07
+thread_pool0 1 events happened -- Epoller.cpp:36
+2020-03-05 15:45:07
+{9: OUT } -- EventLoop.cpp:69
+2020-03-05 15:45:07
+9: OUT  -- Channel.cpp:50
+2020-03-05 15:45:07
+thread_pool0 fd = 9 events = 4 index = 1 -- Epoller.cpp:71
+2020-03-05 15:45:07
+thread_pool0 epoll_ctl op = MOD fd = 9 event = { 9: OUT  } -- Epoller.cpp:109
+2020-03-05 15:45:07
+thread_pool0 fd = 9 events = 4 index = 1 -- Epoller.cpp:71
+2020-03-05 15:45:07
+thread_pool0 epoll_ctl op = MOD fd = 9 event = { 9: OUT  } -- Epoller.cpp:109
+2020-03-05 15:45:07
+thread_pool0 fd total count 3 -- Epoller.cpp:29
+2020-03-05 15:45:07
+thread_pool0 1 events happened -- Epoller.cpp:36
+2020-03-05 15:45:07
+{9: OUT } -- EventLoop.cpp:69
+2020-03-05 15:45:07
+9: OUT  -- Channel.cpp:50
+2020-03-05 15:45:07
+thread_pool0 fd = 9 events = 0 index = 1 -- Epoller.cpp:71
+2020-03-05 15:45:07
+thread_pool0 epoll_ctl op = DEL fd = 9 event = { 9:  } -- Epoller.cpp:109
+2020-03-05 15:45:07
+thread_pool0 fd = 9 events = -2147483645 index = 2 -- Epoller.cpp:71
+2020-03-05 15:45:07
+thread_pool0 epoll_ctl op = ADD fd = 9 event = { 9: IN PRI  } -- Epoller.cpp:109
+2020-03-05 15:45:07
+thread_pool0 fd total count 3 -- Epoller.cpp:29
+2020-03-05 15:45:14
+thread_pool0 1 events happened -- Epoller.cpp:36
+2020-03-05 15:45:14
+{9: IN } -- EventLoop.cpp:69
+2020-03-05 15:45:14
+9: IN  -- Channel.cpp:50
+2020-03-05 15:45:14
+thread_pool0 fd = 9 events = 0 index = 1 -- Epoller.cpp:71
+2020-03-05 15:45:14
+thread_pool0 epoll_ctl op = DEL fd = 9 event = { 9:  } -- Epoller.cpp:109
+2020-03-05 15:45:14
+thread_pool0 fd = 9 -- Epoller.cpp:129
+2020-03-05 15:45:14
+thread_pool0 fd total count 2 -- Epoller.cpp:29
+2020-03-05 15:45:14
+thread_pool0 1 events happened -- Epoller.cpp:36
+2020-03-05 15:45:14
+{10: IN } -- EventLoop.cpp:69
+2020-03-05 15:45:14
+10: IN  -- Channel.cpp:50
+2020-03-05 15:45:14
+thread_pool0 fd = 10 events = 0 index = 1 -- Epoller.cpp:71
+2020-03-05 15:45:14
+thread_pool0 epoll_ctl op = DEL fd = 10 event = { 10:  } -- Epoller.cpp:109
+2020-03-05 15:45:14
+thread_pool0 fd = 10 -- Epoller.cpp:129
+2020-03-05 15:45:14
+thread_pool0 fd total count 1 -- Epoller.cpp:29
+2020-03-05 15:45:16
+default nothing hanppened -- Epoller.cpp:43
+2020-03-05 15:45:16
+default fd total count 2 -- Epoller.cpp:29
+2020-03-05 15:48:01
+Eventloop created in thread0 -- EventLoop.cpp:31
+2020-03-05 15:48:01
+default fd = 4 events = -2147483645 index = -1 -- Epoller.cpp:71
+2020-03-05 15:48:01
+default epoll_ctl op = ADD fd = 4 event = { 4: IN PRI  } -- Epoller.cpp:109
+2020-03-05 15:48:01
+listen  port:80 -- Operation.cpp:41
+2020-03-05 15:48:01
+Eventloop created in thread29800 -- EventLoop.cpp:31
+2020-03-05 15:48:01
+thread_pool0 fd = 8 events = -2147483645 index = -1 -- Epoller.cpp:71
+2020-03-05 15:48:01
+thread_pool0 epoll_ctl op = ADD fd = 8 event = { 8: IN PRI  } -- Epoller.cpp:109
+2020-03-05 15:48:01
+EventLoop start looping -- EventLoop.cpp:61
+2020-03-05 15:48:01
+thread_pool0 fd total count 1 -- Epoller.cpp:29
+2020-03-05 15:48:01
+default fd = 6 events = -2147483645 index = -1 -- Epoller.cpp:71
+2020-03-05 15:48:01
+default epoll_ctl op = ADD fd = 6 event = { 6: IN PRI  } -- Epoller.cpp:109
+2020-03-05 15:48:01
+EventLoop start looping -- EventLoop.cpp:61
+2020-03-05 15:48:01
+default fd total count 2 -- Epoller.cpp:29
+2020-03-05 15:48:11
+thread_pool0 nothing hanppened -- Epoller.cpp:43
+2020-03-05 15:48:11
+thread_pool0 fd total count 1 -- Epoller.cpp:29
+2020-03-05 15:48:11
+default nothing hanppened -- Epoller.cpp:43
+2020-03-05 15:48:11
+default fd total count 2 -- Epoller.cpp:29
+2020-03-05 15:48:12
+default 1 events happened -- Epoller.cpp:36
+2020-03-05 15:48:12
+{6: IN } -- EventLoop.cpp:69
+2020-03-05 15:48:12
+6: IN  -- Channel.cpp:50
+2020-03-05 15:48:12
+New connection from 112.11.87.60:26525 -- Server.cpp:60
+2020-03-05 15:48:12
+default fd total count 2 -- Epoller.cpp:29
+2020-03-05 15:48:12
+thread_pool0 1 events happened -- Epoller.cpp:36
+2020-03-05 15:48:12
+{8: IN } -- EventLoop.cpp:69
+2020-03-05 15:48:12
+8: IN  -- Channel.cpp:50
+2020-03-05 15:48:12
+thread_pool0 fd = 9 events = -2147483645 index = -1 -- Epoller.cpp:71
+2020-03-05 15:48:12
+thread_pool0 epoll_ctl op = ADD fd = 9 event = { 9: IN PRI  } -- Epoller.cpp:109
+2020-03-05 15:48:12
+thread_pool0 fd total count 2 -- Epoller.cpp:29
+2020-03-05 15:48:12
+thread_pool0 1 events happened -- Epoller.cpp:36
+2020-03-05 15:48:12
+{9: IN } -- EventLoop.cpp:69
+2020-03-05 15:48:12
+9: IN  -- Channel.cpp:50
+2020-03-05 15:48:12
+thread_pool0 fd = 9 events = -2147483645 index = 1 -- Epoller.cpp:71
+2020-03-05 15:48:12
+thread_pool0 epoll_ctl op = MOD fd = 9 event = { 9: IN PRI  } -- Epoller.cpp:109
+2020-03-05 15:48:12
+thread_pool0 fd total count 2 -- Epoller.cpp:29
+2020-03-05 15:48:12
+default 1 events happened -- Epoller.cpp:36
+2020-03-05 15:48:12
+{6: IN } -- EventLoop.cpp:69
+2020-03-05 15:48:12
+6: IN  -- Channel.cpp:50
+2020-03-05 15:48:12
+New connection from 112.11.87.60:26036 -- Server.cpp:60
+2020-03-05 15:48:12
+default fd total count 2 -- Epoller.cpp:29
+2020-03-05 15:48:12
+thread_pool0 1 events happened -- Epoller.cpp:36
+2020-03-05 15:48:12
+{8: IN } -- EventLoop.cpp:69
+2020-03-05 15:48:12
+8: IN  -- Channel.cpp:50
+2020-03-05 15:48:12
+thread_pool0 fd = 10 events = -2147483645 index = -1 -- Epoller.cpp:71
+2020-03-05 15:48:12
+thread_pool0 epoll_ctl op = ADD fd = 10 event = { 10: IN PRI  } -- Epoller.cpp:109
+2020-03-05 15:48:12
+thread_pool0 fd total count 3 -- Epoller.cpp:29
+2020-03-05 15:48:12
+thread_pool0 1 events happened -- Epoller.cpp:36
+2020-03-05 15:48:12
+{9: IN } -- EventLoop.cpp:69
+2020-03-05 15:48:12
+9: IN  -- Channel.cpp:50
+2020-03-05 15:48:12
+thread_pool0 fd = 9 events = -2147483641 index = 1 -- Epoller.cpp:71
+2020-03-05 15:48:12
+thread_pool0 epoll_ctl op = MOD fd = 9 event = { 9: IN PRI OUT  } -- Epoller.cpp:109
+2020-03-05 15:48:12
+thread_pool0 fd = 9 events = 4 index = 1 -- Epoller.cpp:71
+2020-03-05 15:48:12
+thread_pool0 epoll_ctl op = MOD fd = 9 event = { 9: OUT  } -- Epoller.cpp:109
+2020-03-05 15:48:12
+thread_pool0 fd total count 3 -- Epoller.cpp:29
+2020-03-05 15:48:12
+thread_pool0 1 events happened -- Epoller.cpp:36
+2020-03-05 15:48:12
+{9: OUT } -- EventLoop.cpp:69
+2020-03-05 15:48:12
+9: OUT  -- Channel.cpp:50
+2020-03-05 15:48:12
+thread_pool0 fd = 9 events = 4 index = 1 -- Epoller.cpp:71
+2020-03-05 15:48:12
+thread_pool0 epoll_ctl op = MOD fd = 9 event = { 9: OUT  } -- Epoller.cpp:109
+2020-03-05 15:48:12
+thread_pool0 fd = 9 events = 4 index = 1 -- Epoller.cpp:71
+2020-03-05 15:48:12
+thread_pool0 epoll_ctl op = MOD fd = 9 event = { 9: OUT  } -- Epoller.cpp:109
+2020-03-05 15:48:12
+thread_pool0 fd total count 3 -- Epoller.cpp:29
+2020-03-05 15:48:12
+thread_pool0 1 events happened -- Epoller.cpp:36
+2020-03-05 15:48:12
+{9: OUT } -- EventLoop.cpp:69
+2020-03-05 15:48:12
+9: OUT  -- Channel.cpp:50
+2020-03-05 15:48:12
+thread_pool0 fd = 9 events = 4 index = 1 -- Epoller.cpp:71
+2020-03-05 15:48:12
+thread_pool0 epoll_ctl op = MOD fd = 9 event = { 9: OUT  } -- Epoller.cpp:109
+2020-03-05 15:48:12
+thread_pool0 fd = 9 events = 4 index = 1 -- Epoller.cpp:71
+2020-03-05 15:48:12
+thread_pool0 epoll_ctl op = MOD fd = 9 event = { 9: OUT  } -- Epoller.cpp:109
+2020-03-05 15:48:12
+thread_pool0 fd total count 3 -- Epoller.cpp:29
+2020-03-05 15:48:13
+thread_pool0 1 events happened -- Epoller.cpp:36
+2020-03-05 15:48:13
+{9: OUT } -- EventLoop.cpp:69
+2020-03-05 15:48:13
+9: OUT  -- Channel.cpp:50
+2020-03-05 15:48:13
+thread_pool0 fd = 9 events = 4 index = 1 -- Epoller.cpp:71
+2020-03-05 15:48:13
+thread_pool0 epoll_ctl op = MOD fd = 9 event = { 9: OUT  } -- Epoller.cpp:109
+2020-03-05 15:48:13
+thread_pool0 fd = 9 events = 4 index = 1 -- Epoller.cpp:71
+2020-03-05 15:48:13
+thread_pool0 epoll_ctl op = MOD fd = 9 event = { 9: OUT  } -- Epoller.cpp:109
+2020-03-05 15:48:13
+thread_pool0 fd total count 3 -- Epoller.cpp:29
+2020-03-05 15:48:13
+thread_pool0 1 events happened -- Epoller.cpp:36
+2020-03-05 15:48:13
+{9: OUT } -- EventLoop.cpp:69
+2020-03-05 15:48:13
+9: OUT  -- Channel.cpp:50
+2020-03-05 15:48:13
+thread_pool0 fd = 9 events = 4 index = 1 -- Epoller.cpp:71
+2020-03-05 15:48:13
+thread_pool0 epoll_ctl op = MOD fd = 9 event = { 9: OUT  } -- Epoller.cpp:109
+2020-03-05 15:48:13
+thread_pool0 fd = 9 events = 4 index = 1 -- Epoller.cpp:71
+2020-03-05 15:48:13
+thread_pool0 epoll_ctl op = MOD fd = 9 event = { 9: OUT  } -- Epoller.cpp:109
+2020-03-05 15:48:13
+thread_pool0 fd total count 3 -- Epoller.cpp:29
+2020-03-05 15:48:13
+thread_pool0 1 events happened -- Epoller.cpp:36
+2020-03-05 15:48:13
+{9: OUT } -- EventLoop.cpp:69
+2020-03-05 15:48:13
+9: OUT  -- Channel.cpp:50
+2020-03-05 15:48:13
+thread_pool0 fd = 9 events = 4 index = 1 -- Epoller.cpp:71
+2020-03-05 15:48:13
+thread_pool0 epoll_ctl op = MOD fd = 9 event = { 9: OUT  } -- Epoller.cpp:109
+2020-03-05 15:48:13
+thread_pool0 fd = 9 events = 4 index = 1 -- Epoller.cpp:71
+2020-03-05 15:48:13
+thread_pool0 epoll_ctl op = MOD fd = 9 event = { 9: OUT  } -- Epoller.cpp:109
+2020-03-05 15:48:13
+thread_pool0 fd total count 3 -- Epoller.cpp:29
+2020-03-05 15:48:14
+thread_pool0 1 events happened -- Epoller.cpp:36
+2020-03-05 15:48:14
+{9: OUT } -- EventLoop.cpp:69
+2020-03-05 15:48:14
+9: OUT  -- Channel.cpp:50
+2020-03-05 15:48:14
+thread_pool0 fd = 9 events = 0 index = 1 -- Epoller.cpp:71
+2020-03-05 15:48:14
+thread_pool0 epoll_ctl op = DEL fd = 9 event = { 9:  } -- Epoller.cpp:109
+2020-03-05 15:48:14
+thread_pool0 fd = 9 events = -2147483645 index = 2 -- Epoller.cpp:71
+2020-03-05 15:48:14
+thread_pool0 epoll_ctl op = ADD fd = 9 event = { 9: IN PRI  } -- Epoller.cpp:109
+2020-03-05 15:48:14
+thread_pool0 fd total count 3 -- Epoller.cpp:29
+2020-03-05 15:48:22
+default nothing hanppened -- Epoller.cpp:43
+2020-03-05 15:48:22
+default fd total count 2 -- Epoller.cpp:29
+2020-03-05 15:48:24
+thread_pool0 nothing hanppened -- Epoller.cpp:43
+2020-03-05 15:48:24
+thread_pool0 fd = 9 events = 0 index = 1 -- Epoller.cpp:71
+2020-03-05 15:48:24
+thread_pool0 epoll_ctl op = DEL fd = 9 event = { 9:  } -- Epoller.cpp:109
+2020-03-05 15:48:24
+thread_pool0 fd = 9 -- Epoller.cpp:129
+2020-03-05 15:48:24
+thread_pool0 fd total count 2 -- Epoller.cpp:29
+2020-03-05 15:48:32
+default nothing hanppened -- Epoller.cpp:43
+2020-03-05 15:48:32
+default fd total count 2 -- Epoller.cpp:29
+2020-03-05 15:48:32
+thread_pool0 1 events happened -- Epoller.cpp:36
+2020-03-05 15:48:32
+{10: IN } -- EventLoop.cpp:69
+2020-03-05 15:48:32
+10: IN  -- Channel.cpp:50
+2020-03-05 15:48:32
+thread_pool0 fd = 10 events = 0 index = 1 -- Epoller.cpp:71
+2020-03-05 15:48:32
+thread_pool0 epoll_ctl op = DEL fd = 10 event = { 10:  } -- Epoller.cpp:109
+2020-03-05 15:48:32
+thread_pool0 fd = 10 -- Epoller.cpp:129
+2020-03-05 15:48:32
+thread_pool0 fd total count 1 -- Epoller.cpp:29
+2020-03-05 15:48:42
+default nothing hanppened -- Epoller.cpp:43
+2020-03-05 15:48:42
+default fd total count 2 -- Epoller.cpp:29
+2020-03-05 15:48:42
+thread_pool0 nothing hanppened -- Epoller.cpp:43
+2020-03-05 15:48:42
+thread_pool0 fd total count 1 -- Epoller.cpp:29
+2020-03-05 15:52:35
+Eventloop created in thread0 -- EventLoop.cpp:31
+2020-03-05 15:52:35
+default fd = 4 events = -2147483645 index = -1 -- Epoller.cpp:71
+2020-03-05 15:52:35
+default epoll_ctl op = ADD fd = 4 event = { 4: IN PRI  } -- Epoller.cpp:109
+2020-03-05 15:52:35
+listen  port:80 -- Operation.cpp:41
+2020-03-05 15:52:35
+Eventloop created in thread29953 -- EventLoop.cpp:31
+2020-03-05 15:52:35
+thread_pool0 fd = 8 events = -2147483645 index = -1 -- Epoller.cpp:71
+2020-03-05 15:52:35
+thread_pool0 epoll_ctl op = ADD fd = 8 event = { 8: IN PRI  } -- Epoller.cpp:109
+2020-03-05 15:52:35
+EventLoop start looping -- EventLoop.cpp:61
+2020-03-05 15:52:35
+thread_pool0 fd total count 1 -- Epoller.cpp:29
+2020-03-05 15:52:35
+default fd = 6 events = -2147483645 index = -1 -- Epoller.cpp:71
+2020-03-05 15:52:35
+default epoll_ctl op = ADD fd = 6 event = { 6: IN PRI  } -- Epoller.cpp:109
+2020-03-05 15:52:35
+EventLoop start looping -- EventLoop.cpp:61
+2020-03-05 15:52:35
+default fd total count 2 -- Epoller.cpp:29
+2020-03-05 15:52:40
+default 1 events happened -- Epoller.cpp:36
+2020-03-05 15:52:40
+{6: IN } -- EventLoop.cpp:69
+2020-03-05 15:52:40
+6: IN  -- Channel.cpp:50
+2020-03-05 15:52:40
+New connection from 112.11.87.60:26516 -- Server.cpp:60
+2020-03-05 15:52:40
+default fd total count 2 -- Epoller.cpp:29
+2020-03-05 15:52:40
+thread_pool0 1 events happened -- Epoller.cpp:36
+2020-03-05 15:52:40
+{8: IN } -- EventLoop.cpp:69
+2020-03-05 15:52:40
+8: IN  -- Channel.cpp:50
+2020-03-05 15:52:40
+thread_pool0 fd = 9 events = -2147483645 index = -1 -- Epoller.cpp:71
+2020-03-05 15:52:40
+thread_pool0 epoll_ctl op = ADD fd = 9 event = { 9: IN PRI  } -- Epoller.cpp:109
+2020-03-05 15:52:40
+thread_pool0 fd total count 2 -- Epoller.cpp:29
+2020-03-05 15:52:40
+default 1 events happened -- Epoller.cpp:36
+2020-03-05 15:52:40
+{6: IN } -- EventLoop.cpp:69
+2020-03-05 15:52:40
+6: IN  -- Channel.cpp:50
+2020-03-05 15:52:40
+New connection from 112.11.87.60:26551 -- Server.cpp:60
+2020-03-05 15:52:40
+default fd total count 2 -- Epoller.cpp:29
+2020-03-05 15:52:40
+thread_pool0 1 events happened -- Epoller.cpp:36
+2020-03-05 15:52:40
+{8: IN } -- EventLoop.cpp:69
+2020-03-05 15:52:40
+8: IN  -- Channel.cpp:50
+2020-03-05 15:52:40
+thread_pool0 fd = 10 events = -2147483645 index = -1 -- Epoller.cpp:71
+2020-03-05 15:52:40
+thread_pool0 epoll_ctl op = ADD fd = 10 event = { 10: IN PRI  } -- Epoller.cpp:109
+2020-03-05 15:52:40
+thread_pool0 fd total count 3 -- Epoller.cpp:29
+2020-03-05 15:52:40
+thread_pool0 1 events happened -- Epoller.cpp:36
+2020-03-05 15:52:40
+{10: IN } -- EventLoop.cpp:69
+2020-03-05 15:52:40
+10: IN  -- Channel.cpp:50
+2020-03-05 15:52:40
+thread_pool0 fd = 10 events = -2147483645 index = 1 -- Epoller.cpp:71
+2020-03-05 15:52:40
+thread_pool0 epoll_ctl op = MOD fd = 10 event = { 10: IN PRI  } -- Epoller.cpp:109
+2020-03-05 15:52:40
+thread_pool0 fd total count 3 -- Epoller.cpp:29
+2020-03-05 15:52:40
+thread_pool0 1 events happened -- Epoller.cpp:36
+2020-03-05 15:52:40
+{10: IN } -- EventLoop.cpp:69
+2020-03-05 15:52:40
+10: IN  -- Channel.cpp:50
+2020-03-05 15:52:40
+thread_pool0 fd = 10 events = -2147483641 index = 1 -- Epoller.cpp:71
+2020-03-05 15:52:40
+thread_pool0 epoll_ctl op = MOD fd = 10 event = { 10: IN PRI OUT  } -- Epoller.cpp:109
+2020-03-05 15:52:40
+thread_pool0 fd = 10 events = 4 index = 1 -- Epoller.cpp:71
+2020-03-05 15:52:40
+thread_pool0 epoll_ctl op = MOD fd = 10 event = { 10: OUT  } -- Epoller.cpp:109
+2020-03-05 15:52:40
+thread_pool0 fd total count 3 -- Epoller.cpp:29
+2020-03-05 15:52:40
+thread_pool0 1 events happened -- Epoller.cpp:36
+2020-03-05 15:52:40
+{10: OUT } -- EventLoop.cpp:69
+2020-03-05 15:52:40
+10: OUT  -- Channel.cpp:50
+2020-03-05 15:52:40
+thread_pool0 fd = 10 events = 4 index = 1 -- Epoller.cpp:71
+2020-03-05 15:52:40
+thread_pool0 epoll_ctl op = MOD fd = 10 event = { 10: OUT  } -- Epoller.cpp:109
+2020-03-05 15:52:40
+thread_pool0 fd = 10 events = 4 index = 1 -- Epoller.cpp:71
+2020-03-05 15:52:40
+thread_pool0 epoll_ctl op = MOD fd = 10 event = { 10: OUT  } -- Epoller.cpp:109
+2020-03-05 15:52:40
+thread_pool0 fd total count 3 -- Epoller.cpp:29
+2020-03-05 15:52:40
+thread_pool0 1 events happened -- Epoller.cpp:36
+2020-03-05 15:52:40
+{10: OUT } -- EventLoop.cpp:69
+2020-03-05 15:52:40
+10: OUT  -- Channel.cpp:50
+2020-03-05 15:52:40
+thread_pool0 fd = 10 events = 4 index = 1 -- Epoller.cpp:71
+2020-03-05 15:52:40
+thread_pool0 epoll_ctl op = MOD fd = 10 event = { 10: OUT  } -- Epoller.cpp:109
+2020-03-05 15:52:40
+thread_pool0 fd = 10 events = 4 index = 1 -- Epoller.cpp:71
+2020-03-05 15:52:40
+thread_pool0 epoll_ctl op = MOD fd = 10 event = { 10: OUT  } -- Epoller.cpp:109
+2020-03-05 15:52:40
+thread_pool0 fd total count 3 -- Epoller.cpp:29
+2020-03-05 15:52:40
+thread_pool0 1 events happened -- Epoller.cpp:36
+2020-03-05 15:52:40
+{10: OUT } -- EventLoop.cpp:69
+2020-03-05 15:52:40
+10: OUT  -- Channel.cpp:50
+2020-03-05 15:52:40
+thread_pool0 fd = 10 events = 4 index = 1 -- Epoller.cpp:71
+2020-03-05 15:52:40
+thread_pool0 epoll_ctl op = MOD fd = 10 event = { 10: OUT  } -- Epoller.cpp:109
+2020-03-05 15:52:40
+thread_pool0 fd = 10 events = 4 index = 1 -- Epoller.cpp:71
+2020-03-05 15:52:40
+thread_pool0 epoll_ctl op = MOD fd = 10 event = { 10: OUT  } -- Epoller.cpp:109
+2020-03-05 15:52:40
+thread_pool0 fd total count 3 -- Epoller.cpp:29
+2020-03-05 15:52:40
+thread_pool0 1 events happened -- Epoller.cpp:36
+2020-03-05 15:52:40
+{10: OUT } -- EventLoop.cpp:69
+2020-03-05 15:52:40
+10: OUT  -- Channel.cpp:50
+2020-03-05 15:52:40
+thread_pool0 fd = 10 events = 4 index = 1 -- Epoller.cpp:71
+2020-03-05 15:52:40
+thread_pool0 epoll_ctl op = MOD fd = 10 event = { 10: OUT  } -- Epoller.cpp:109
+2020-03-05 15:52:40
+thread_pool0 fd = 10 events = 4 index = 1 -- Epoller.cpp:71
+2020-03-05 15:52:40
+thread_pool0 epoll_ctl op = MOD fd = 10 event = { 10: OUT  } -- Epoller.cpp:109
+2020-03-05 15:52:40
+thread_pool0 fd total count 3 -- Epoller.cpp:29
+2020-03-05 15:52:41
+thread_pool0 1 events happened -- Epoller.cpp:36
+2020-03-05 15:52:41
+{10: OUT } -- EventLoop.cpp:69
+2020-03-05 15:52:41
+10: OUT  -- Channel.cpp:50
+2020-03-05 15:52:41
+thread_pool0 fd = 10 events = 4 index = 1 -- Epoller.cpp:71
+2020-03-05 15:52:41
+thread_pool0 epoll_ctl op = MOD fd = 10 event = { 10: OUT  } -- Epoller.cpp:109
+2020-03-05 15:52:41
+thread_pool0 fd = 10 events = 4 index = 1 -- Epoller.cpp:71
+2020-03-05 15:52:41
+thread_pool0 epoll_ctl op = MOD fd = 10 event = { 10: OUT  } -- Epoller.cpp:109
+2020-03-05 15:52:41
+thread_pool0 fd total count 3 -- Epoller.cpp:29
+2020-03-05 15:52:41
+thread_pool0 1 events happened -- Epoller.cpp:36
+2020-03-05 15:52:41
+{10: OUT } -- EventLoop.cpp:69
+2020-03-05 15:52:41
+10: OUT  -- Channel.cpp:50
+2020-03-05 15:52:41
+thread_pool0 fd = 10 events = 4 index = 1 -- Epoller.cpp:71
+2020-03-05 15:52:41
+thread_pool0 epoll_ctl op = MOD fd = 10 event = { 10: OUT  } -- Epoller.cpp:109
+2020-03-05 15:52:41
+thread_pool0 fd = 10 events = 4 index = 1 -- Epoller.cpp:71
+2020-03-05 15:52:41
+thread_pool0 epoll_ctl op = MOD fd = 10 event = { 10: OUT  } -- Epoller.cpp:109
+2020-03-05 15:52:41
+thread_pool0 fd total count 3 -- Epoller.cpp:29
+2020-03-05 15:52:41
+thread_pool0 1 events happened -- Epoller.cpp:36
+2020-03-05 15:52:41
+{10: OUT } -- EventLoop.cpp:69
+2020-03-05 15:52:41
+10: OUT  -- Channel.cpp:50
+2020-03-05 15:52:41
+thread_pool0 fd = 10 events = 0 index = 1 -- Epoller.cpp:71
+2020-03-05 15:52:41
+thread_pool0 epoll_ctl op = DEL fd = 10 event = { 10:  } -- Epoller.cpp:109
+2020-03-05 15:52:41
+thread_pool0 fd = 10 events = -2147483645 index = 2 -- Epoller.cpp:71
+2020-03-05 15:52:41
+thread_pool0 epoll_ctl op = ADD fd = 10 event = { 10: IN PRI  } -- Epoller.cpp:109
+2020-03-05 15:52:41
+thread_pool0 fd total count 3 -- Epoller.cpp:29
+2020-03-05 15:52:50
+default nothing hanppened -- Epoller.cpp:43
+2020-03-05 15:52:50
+default fd total count 2 -- Epoller.cpp:29
+2020-03-05 15:52:51
+thread_pool0 nothing hanppened -- Epoller.cpp:43
+2020-03-05 15:52:51
+thread_pool0 fd = 10 events = 0 index = 1 -- Epoller.cpp:71
+2020-03-05 15:52:51
+thread_pool0 epoll_ctl op = DEL fd = 10 event = { 10:  } -- Epoller.cpp:109
+2020-03-05 15:52:51
+thread_pool0 fd = 10 -- Epoller.cpp:129
+2020-03-05 15:52:51
+thread_pool0 fd total count 2 -- Epoller.cpp:29
+2020-03-05 15:53:00
+default nothing hanppened -- Epoller.cpp:43
+2020-03-05 15:53:00
+default fd total count 2 -- Epoller.cpp:29
+2020-03-05 15:53:00
+thread_pool0 1 events happened -- Epoller.cpp:36
+2020-03-05 15:53:00
+{9: IN } -- EventLoop.cpp:69
+2020-03-05 15:53:00
+9: IN  -- Channel.cpp:50
+2020-03-05 15:53:00
+thread_pool0 fd = 9 events = 0 index = 1 -- Epoller.cpp:71
+2020-03-05 15:53:00
+thread_pool0 epoll_ctl op = DEL fd = 9 event = { 9:  } -- Epoller.cpp:109
+2020-03-05 15:53:00
+thread_pool0 fd = 9 -- Epoller.cpp:129
+2020-03-05 15:53:00
+thread_pool0 fd total count 1 -- Epoller.cpp:29
+2020-03-05 15:53:10
+default nothing hanppened -- Epoller.cpp:43
+2020-03-05 15:53:10
+default fd total count 2 -- Epoller.cpp:29
+2020-03-05 15:53:10
+thread_pool0 nothing hanppened -- Epoller.cpp:43
+2020-03-05 15:53:10
+thread_pool0 fd total count 1 -- Epoller.cpp:29
+2020-03-05 16:13:20
+Eventloop created in thread0 -- EventLoop.cpp:31
+2020-03-05 16:13:20
+default fd = 4 events = -2147483645 index = -1 -- Epoller.cpp:71
+2020-03-05 16:13:20
+default epoll_ctl op = ADD fd = 4 event = { 4: IN PRI  } -- Epoller.cpp:109
+2020-03-05 16:13:20
+listen  port:80 -- Operation.cpp:41
+2020-03-05 16:13:20
+Eventloop created in thread30156 -- EventLoop.cpp:31
+2020-03-05 16:13:20
+thread_pool0 fd = 8 events = -2147483645 index = -1 -- Epoller.cpp:71
+2020-03-05 16:13:20
+thread_pool0 epoll_ctl op = ADD fd = 8 event = { 8: IN PRI  } -- Epoller.cpp:109
+2020-03-05 16:13:20
+EventLoop start looping -- EventLoop.cpp:61
+2020-03-05 16:13:20
+thread_pool0 fd total count 1 -- Epoller.cpp:29
+2020-03-05 16:13:20
+default fd = 6 events = -2147483645 index = -1 -- Epoller.cpp:71
+2020-03-05 16:13:20
+default epoll_ctl op = ADD fd = 6 event = { 6: IN PRI  } -- Epoller.cpp:109
+2020-03-05 16:13:20
+EventLoop start looping -- EventLoop.cpp:61
+2020-03-05 16:13:20
+default fd total count 2 -- Epoller.cpp:29
+2020-03-05 16:13:28
+default 1 events happened -- Epoller.cpp:36
+2020-03-05 16:13:28
+{6: IN } -- EventLoop.cpp:69
+2020-03-05 16:13:28
+6: IN  -- Channel.cpp:50
+2020-03-05 16:13:28
+New connection from 112.11.87.60:26040 -- Server.cpp:60
+2020-03-05 16:13:28
+default fd total count 2 -- Epoller.cpp:29
+2020-03-05 16:13:28
+thread_pool0 1 events happened -- Epoller.cpp:36
+2020-03-05 16:13:28
+{8: IN } -- EventLoop.cpp:69
+2020-03-05 16:13:28
+8: IN  -- Channel.cpp:50
+2020-03-05 16:13:28
+thread_pool0 fd = 9 events = -2147483645 index = -1 -- Epoller.cpp:71
+2020-03-05 16:13:28
+thread_pool0 epoll_ctl op = ADD fd = 9 event = { 9: IN PRI  } -- Epoller.cpp:109
+2020-03-05 16:13:28
+thread_pool0 fd total count 2 -- Epoller.cpp:29
+2020-03-05 16:13:28
+thread_pool0 1 events happened -- Epoller.cpp:36
+2020-03-05 16:13:28
+{9: IN } -- EventLoop.cpp:69
+2020-03-05 16:13:28
+9: IN  -- Channel.cpp:50
+2020-03-05 16:13:28
+thread_pool0 fd = 9 events = -2147483645 index = 1 -- Epoller.cpp:71
+2020-03-05 16:13:28
+thread_pool0 epoll_ctl op = MOD fd = 9 event = { 9: IN PRI  } -- Epoller.cpp:109
+2020-03-05 16:13:28
+thread_pool0 fd total count 2 -- Epoller.cpp:29
+2020-03-05 16:13:28
+default 1 events happened -- Epoller.cpp:36
+2020-03-05 16:13:28
+{6: IN } -- EventLoop.cpp:69
+2020-03-05 16:13:28
+6: IN  -- Channel.cpp:50
+2020-03-05 16:13:28
+New connection from 112.11.87.60:26851 -- Server.cpp:60
+2020-03-05 16:13:28
+default fd total count 2 -- Epoller.cpp:29
+2020-03-05 16:13:28
+thread_pool0 1 events happened -- Epoller.cpp:36
+2020-03-05 16:13:28
+{8: IN } -- EventLoop.cpp:69
+2020-03-05 16:13:28
+8: IN  -- Channel.cpp:50
+2020-03-05 16:13:28
+thread_pool0 fd = 10 events = -2147483645 index = -1 -- Epoller.cpp:71
+2020-03-05 16:13:28
+thread_pool0 epoll_ctl op = ADD fd = 10 event = { 10: IN PRI  } -- Epoller.cpp:109
+2020-03-05 16:13:28
+thread_pool0 fd total count 3 -- Epoller.cpp:29
+2020-03-05 16:13:28
+default 1 events happened -- Epoller.cpp:36
+2020-03-05 16:13:28
+{6: IN } -- EventLoop.cpp:69
+2020-03-05 16:13:28
+6: IN  -- Channel.cpp:50
+2020-03-05 16:13:28
+New connection from 112.11.87.60:25613 -- Server.cpp:60
+2020-03-05 16:13:28
+default fd total count 2 -- Epoller.cpp:29
+2020-03-05 16:13:28
+thread_pool0 1 events happened -- Epoller.cpp:36
+2020-03-05 16:13:28
+{8: IN } -- EventLoop.cpp:69
+2020-03-05 16:13:28
+8: IN  -- Channel.cpp:50
+2020-03-05 16:13:28
+thread_pool0 fd = 11 events = -2147483645 index = -1 -- Epoller.cpp:71
+2020-03-05 16:13:28
+thread_pool0 epoll_ctl op = ADD fd = 11 event = { 11: IN PRI  } -- Epoller.cpp:109
+2020-03-05 16:13:28
+thread_pool0 fd total count 4 -- Epoller.cpp:29
+2020-03-05 16:13:28
+thread_pool0 1 events happened -- Epoller.cpp:36
+2020-03-05 16:13:28
+{9: IN } -- EventLoop.cpp:69
+2020-03-05 16:13:28
+9: IN  -- Channel.cpp:50
+2020-03-05 16:13:28
+thread_pool0 fd = 9 events = -2147483641 index = 1 -- Epoller.cpp:71
+2020-03-05 16:13:28
+thread_pool0 epoll_ctl op = MOD fd = 9 event = { 9: IN PRI OUT  } -- Epoller.cpp:109
+2020-03-05 16:13:28
+thread_pool0 fd = 9 events = 4 index = 1 -- Epoller.cpp:71
+2020-03-05 16:13:28
+thread_pool0 epoll_ctl op = MOD fd = 9 event = { 9: OUT  } -- Epoller.cpp:109
+2020-03-05 16:13:28
+thread_pool0 fd total count 4 -- Epoller.cpp:29
+2020-03-05 16:13:28
+thread_pool0 1 events happened -- Epoller.cpp:36
+2020-03-05 16:13:28
+{9: OUT } -- EventLoop.cpp:69
+2020-03-05 16:13:28
+9: OUT  -- Channel.cpp:50
+2020-03-05 16:13:28
+thread_pool0 fd = 9 events = 4 index = 1 -- Epoller.cpp:71
+2020-03-05 16:13:28
+thread_pool0 epoll_ctl op = MOD fd = 9 event = { 9: OUT  } -- Epoller.cpp:109
+2020-03-05 16:13:28
+thread_pool0 fd = 9 events = 4 index = 1 -- Epoller.cpp:71
+2020-03-05 16:13:28
+thread_pool0 epoll_ctl op = MOD fd = 9 event = { 9: OUT  } -- Epoller.cpp:109
+2020-03-05 16:13:28
+thread_pool0 fd total count 4 -- Epoller.cpp:29
+2020-03-05 16:13:28
+thread_pool0 1 events happened -- Epoller.cpp:36
+2020-03-05 16:13:28
+{9: OUT } -- EventLoop.cpp:69
+2020-03-05 16:13:28
+9: OUT  -- Channel.cpp:50
+2020-03-05 16:13:28
+thread_pool0 fd = 9 events = 4 index = 1 -- Epoller.cpp:71
+2020-03-05 16:13:28
+thread_pool0 epoll_ctl op = MOD fd = 9 event = { 9: OUT  } -- Epoller.cpp:109
+2020-03-05 16:13:28
+thread_pool0 fd = 9 events = 4 index = 1 -- Epoller.cpp:71
+2020-03-05 16:13:28
+thread_pool0 epoll_ctl op = MOD fd = 9 event = { 9: OUT  } -- Epoller.cpp:109
+2020-03-05 16:13:28
+thread_pool0 fd total count 4 -- Epoller.cpp:29
+2020-03-05 16:13:28
+thread_pool0 1 events happened -- Epoller.cpp:36
+2020-03-05 16:13:28
+{9: OUT } -- EventLoop.cpp:69
+2020-03-05 16:13:28
+9: OUT  -- Channel.cpp:50
+2020-03-05 16:13:28
+thread_pool0 fd = 9 events = 4 index = 1 -- Epoller.cpp:71
+2020-03-05 16:13:28
+thread_pool0 epoll_ctl op = MOD fd = 9 event = { 9: OUT  } -- Epoller.cpp:109
+2020-03-05 16:13:28
+thread_pool0 fd = 9 events = 4 index = 1 -- Epoller.cpp:71
+2020-03-05 16:13:28
+thread_pool0 epoll_ctl op = MOD fd = 9 event = { 9: OUT  } -- Epoller.cpp:109
+2020-03-05 16:13:28
+thread_pool0 fd total count 4 -- Epoller.cpp:29
+2020-03-05 16:13:28
+thread_pool0 1 events happened -- Epoller.cpp:36
+2020-03-05 16:13:28
+{9: OUT } -- EventLoop.cpp:69
+2020-03-05 16:13:28
+9: OUT  -- Channel.cpp:50
+2020-03-05 16:13:28
+thread_pool0 fd = 9 events = 4 index = 1 -- Epoller.cpp:71
+2020-03-05 16:13:28
+thread_pool0 epoll_ctl op = MOD fd = 9 event = { 9: OUT  } -- Epoller.cpp:109
+2020-03-05 16:13:28
+thread_pool0 fd = 9 events = 4 index = 1 -- Epoller.cpp:71
+2020-03-05 16:13:28
+thread_pool0 epoll_ctl op = MOD fd = 9 event = { 9: OUT  } -- Epoller.cpp:109
+2020-03-05 16:13:28
+thread_pool0 fd total count 4 -- Epoller.cpp:29
+2020-03-05 16:13:28
+thread_pool0 1 events happened -- Epoller.cpp:36
+2020-03-05 16:13:28
+{9: OUT } -- EventLoop.cpp:69
+2020-03-05 16:13:28
+9: OUT  -- Channel.cpp:50
+2020-03-05 16:13:28
+thread_pool0 fd = 9 events = 4 index = 1 -- Epoller.cpp:71
+2020-03-05 16:13:28
+thread_pool0 epoll_ctl op = MOD fd = 9 event = { 9: OUT  } -- Epoller.cpp:109
+2020-03-05 16:13:28
+thread_pool0 fd = 9 events = 4 index = 1 -- Epoller.cpp:71
+2020-03-05 16:13:28
+thread_pool0 epoll_ctl op = MOD fd = 9 event = { 9: OUT  } -- Epoller.cpp:109
+2020-03-05 16:13:28
+thread_pool0 fd total count 4 -- Epoller.cpp:29
+2020-03-05 16:13:29
+thread_pool0 1 events happened -- Epoller.cpp:36
+2020-03-05 16:13:29
+{9: OUT } -- EventLoop.cpp:69
+2020-03-05 16:13:29
+9: OUT  -- Channel.cpp:50
+2020-03-05 16:13:29
+thread_pool0 fd = 9 events = 4 index = 1 -- Epoller.cpp:71
+2020-03-05 16:13:29
+thread_pool0 epoll_ctl op = MOD fd = 9 event = { 9: OUT  } -- Epoller.cpp:109
+2020-03-05 16:13:29
+thread_pool0 fd = 9 events = 4 index = 1 -- Epoller.cpp:71
+2020-03-05 16:13:29
+thread_pool0 epoll_ctl op = MOD fd = 9 event = { 9: OUT  } -- Epoller.cpp:109
+2020-03-05 16:13:29
+thread_pool0 fd total count 4 -- Epoller.cpp:29
+2020-03-05 16:13:29
+thread_pool0 1 events happened -- Epoller.cpp:36
+2020-03-05 16:13:29
+{9: OUT } -- EventLoop.cpp:69
+2020-03-05 16:13:29
+9: OUT  -- Channel.cpp:50
+2020-03-05 16:13:29
+thread_pool0 fd = 9 events = 4 index = 1 -- Epoller.cpp:71
+2020-03-05 16:13:29
+thread_pool0 epoll_ctl op = MOD fd = 9 event = { 9: OUT  } -- Epoller.cpp:109
+2020-03-05 16:13:29
+thread_pool0 fd = 9 events = 4 index = 1 -- Epoller.cpp:71
+2020-03-05 16:13:29
+thread_pool0 epoll_ctl op = MOD fd = 9 event = { 9: OUT  } -- Epoller.cpp:109
+2020-03-05 16:13:29
+thread_pool0 fd total count 4 -- Epoller.cpp:29
+2020-03-05 16:13:29
+thread_pool0 1 events happened -- Epoller.cpp:36
+2020-03-05 16:13:29
+{9: OUT } -- EventLoop.cpp:69
+2020-03-05 16:13:29
+9: OUT  -- Channel.cpp:50
+2020-03-05 16:13:29
+thread_pool0 fd = 9 events = 0 index = 1 -- Epoller.cpp:71
+2020-03-05 16:13:29
+thread_pool0 epoll_ctl op = DEL fd = 9 event = { 9:  } -- Epoller.cpp:109
+2020-03-05 16:13:29
+thread_pool0 fd = 9 events = -2147483645 index = 2 -- Epoller.cpp:71
+2020-03-05 16:13:29
+thread_pool0 epoll_ctl op = ADD fd = 9 event = { 9: IN PRI  } -- Epoller.cpp:109
+2020-03-05 16:13:29
+thread_pool0 fd total count 4 -- Epoller.cpp:29
+2020-03-05 16:13:38
+default nothing hanppened -- Epoller.cpp:43
+2020-03-05 16:13:38
+default fd total count 2 -- Epoller.cpp:29
+2020-03-05 16:13:39
+thread_pool0 nothing hanppened -- Epoller.cpp:43
+2020-03-05 16:13:39
+thread_pool0 fd = 9 events = 0 index = 1 -- Epoller.cpp:71
+2020-03-05 16:13:39
+thread_pool0 epoll_ctl op = DEL fd = 9 event = { 9:  } -- Epoller.cpp:109
+2020-03-05 16:13:39
+thread_pool0 fd = 9 -- Epoller.cpp:129
+2020-03-05 16:13:39
+thread_pool0 fd total count 3 -- Epoller.cpp:29
+2020-03-05 16:13:45
+thread_pool0 1 events happened -- Epoller.cpp:36
+2020-03-05 16:13:45
+{10: IN } -- EventLoop.cpp:69
+2020-03-05 16:13:45
+10: IN  -- Channel.cpp:50
+2020-03-05 16:13:45
+thread_pool0 fd = 10 events = 0 index = 1 -- Epoller.cpp:71
+2020-03-05 16:13:45
+thread_pool0 epoll_ctl op = DEL fd = 10 event = { 10:  } -- Epoller.cpp:109
+2020-03-05 16:13:45
+thread_pool0 fd = 10 -- Epoller.cpp:129
+2020-03-05 16:13:45
+thread_pool0 fd total count 2 -- Epoller.cpp:29
+2020-03-05 16:13:45
+thread_pool0 1 events happened -- Epoller.cpp:36
+2020-03-05 16:13:45
+{11: IN } -- EventLoop.cpp:69
+2020-03-05 16:13:45
+11: IN  -- Channel.cpp:50
+2020-03-05 16:13:45
+thread_pool0 fd = 11 events = 0 index = 1 -- Epoller.cpp:71
+2020-03-05 16:13:45
+thread_pool0 epoll_ctl op = DEL fd = 11 event = { 11:  } -- Epoller.cpp:109
+2020-03-05 16:13:45
+thread_pool0 fd = 11 -- Epoller.cpp:129
+2020-03-05 16:13:45
+thread_pool0 fd total count 1 -- Epoller.cpp:29
+2020-03-05 16:13:48
+default nothing hanppened -- Epoller.cpp:43
+2020-03-05 16:13:48
+default fd total count 2 -- Epoller.cpp:29
+2020-03-05 16:13:55
+thread_pool0 nothing hanppened -- Epoller.cpp:43
+2020-03-05 16:13:55
+thread_pool0 fd total count 1 -- Epoller.cpp:29
+2020-03-05 16:15:35
+Eventloop created in thread0 -- EventLoop.cpp:31
+2020-03-05 16:15:35
+default fd = 4 events = -2147483645 index = -1 -- Epoller.cpp:71
+2020-03-05 16:15:35
+default epoll_ctl op = ADD fd = 4 event = { 4: IN PRI  } -- Epoller.cpp:109
+2020-03-05 16:15:35
+listen  port:80 -- Operation.cpp:41
+2020-03-05 16:15:35
+Eventloop created in thread30160 -- EventLoop.cpp:31
+2020-03-05 16:15:35
+thread_pool0 fd = 8 events = -2147483645 index = -1 -- Epoller.cpp:71
+2020-03-05 16:15:35
+thread_pool0 epoll_ctl op = ADD fd = 8 event = { 8: IN PRI  } -- Epoller.cpp:109
+2020-03-05 16:15:35
+EventLoop start looping -- EventLoop.cpp:61
+2020-03-05 16:15:35
+thread_pool0 fd total count 1 -- Epoller.cpp:29
+2020-03-05 16:15:35
+default fd = 6 events = -2147483645 index = -1 -- Epoller.cpp:71
+2020-03-05 16:15:35
+default epoll_ctl op = ADD fd = 6 event = { 6: IN PRI  } -- Epoller.cpp:109
+2020-03-05 16:15:35
+EventLoop start looping -- EventLoop.cpp:61
+2020-03-05 16:15:35
+default fd total count 2 -- Epoller.cpp:29
+2020-03-05 16:15:40
+default 1 events happened -- Epoller.cpp:36
+2020-03-05 16:15:40
+{6: IN } -- EventLoop.cpp:69
+2020-03-05 16:15:40
+6: IN  -- Channel.cpp:50
+2020-03-05 16:15:40
+New connection from 112.11.87.60:26245 -- Server.cpp:60
+2020-03-05 16:15:40
+default fd total count 2 -- Epoller.cpp:29
+2020-03-05 16:15:40
+thread_pool0 1 events happened -- Epoller.cpp:36
+2020-03-05 16:15:40
+{8: IN } -- EventLoop.cpp:69
+2020-03-05 16:15:40
+8: IN  -- Channel.cpp:50
+2020-03-05 16:15:40
+thread_pool0 fd = 9 events = -2147483645 index = -1 -- Epoller.cpp:71
+2020-03-05 16:15:40
+thread_pool0 epoll_ctl op = ADD fd = 9 event = { 9: IN PRI  } -- Epoller.cpp:109
+2020-03-05 16:15:40
+thread_pool0 fd total count 2 -- Epoller.cpp:29
+2020-03-05 16:15:40
+default 1 events happened -- Epoller.cpp:36
+2020-03-05 16:15:40
+{6: IN } -- EventLoop.cpp:69
+2020-03-05 16:15:40
+6: IN  -- Channel.cpp:50
+2020-03-05 16:15:40
+New connection from 112.11.87.60:25348 -- Server.cpp:60
+2020-03-05 16:15:40
+default fd total count 2 -- Epoller.cpp:29
+2020-03-05 16:15:40
+thread_pool0 1 events happened -- Epoller.cpp:36
+2020-03-05 16:15:40
+{8: IN } -- EventLoop.cpp:69
+2020-03-05 16:15:40
+8: IN  -- Channel.cpp:50
+2020-03-05 16:15:40
+thread_pool0 fd = 10 events = -2147483645 index = -1 -- Epoller.cpp:71
+2020-03-05 16:15:40
+thread_pool0 epoll_ctl op = ADD fd = 10 event = { 10: IN PRI  } -- Epoller.cpp:109
+2020-03-05 16:15:40
+thread_pool0 fd total count 3 -- Epoller.cpp:29
+2020-03-05 16:15:40
+thread_pool0 1 events happened -- Epoller.cpp:36
+2020-03-05 16:15:40
+{10: IN } -- EventLoop.cpp:69
+2020-03-05 16:15:40
+10: IN  -- Channel.cpp:50
+2020-03-05 16:15:40
+thread_pool0 fd = 10 events = -2147483645 index = 1 -- Epoller.cpp:71
+2020-03-05 16:15:40
+thread_pool0 epoll_ctl op = MOD fd = 10 event = { 10: IN PRI  } -- Epoller.cpp:109
+2020-03-05 16:15:40
+thread_pool0 fd total count 3 -- Epoller.cpp:29
+2020-03-05 16:15:40
+thread_pool0 1 events happened -- Epoller.cpp:36
+2020-03-05 16:15:40
+{10: IN } -- EventLoop.cpp:69
+2020-03-05 16:15:40
+10: IN  -- Channel.cpp:50
+2020-03-05 16:15:40
+thread_pool0 fd = 10 events = -2147483641 index = 1 -- Epoller.cpp:71
+2020-03-05 16:15:40
+thread_pool0 epoll_ctl op = MOD fd = 10 event = { 10: IN PRI OUT  } -- Epoller.cpp:109
+2020-03-05 16:15:40
+thread_pool0 fd = 10 events = 4 index = 1 -- Epoller.cpp:71
+2020-03-05 16:15:40
+thread_pool0 epoll_ctl op = MOD fd = 10 event = { 10: OUT  } -- Epoller.cpp:109
+2020-03-05 16:15:40
+thread_pool0 fd total count 3 -- Epoller.cpp:29
+2020-03-05 16:15:40
+thread_pool0 1 events happened -- Epoller.cpp:36
+2020-03-05 16:15:40
+{10: OUT } -- EventLoop.cpp:69
+2020-03-05 16:15:40
+10: OUT  -- Channel.cpp:50
+2020-03-05 16:15:40
+thread_pool0 fd = 10 events = 4 index = 1 -- Epoller.cpp:71
+2020-03-05 16:15:40
+thread_pool0 epoll_ctl op = MOD fd = 10 event = { 10: OUT  } -- Epoller.cpp:109
+2020-03-05 16:15:40
+thread_pool0 fd = 10 events = 4 index = 1 -- Epoller.cpp:71
+2020-03-05 16:15:40
+thread_pool0 epoll_ctl op = MOD fd = 10 event = { 10: OUT  } -- Epoller.cpp:109
+2020-03-05 16:15:40
+thread_pool0 fd total count 3 -- Epoller.cpp:29
+2020-03-05 16:15:40
+thread_pool0 1 events happened -- Epoller.cpp:36
+2020-03-05 16:15:40
+{10: OUT } -- EventLoop.cpp:69
+2020-03-05 16:15:40
+10: OUT  -- Channel.cpp:50
+2020-03-05 16:15:40
+thread_pool0 fd = 10 events = 4 index = 1 -- Epoller.cpp:71
+2020-03-05 16:15:40
+thread_pool0 epoll_ctl op = MOD fd = 10 event = { 10: OUT  } -- Epoller.cpp:109
+2020-03-05 16:15:40
+thread_pool0 fd = 10 events = 4 index = 1 -- Epoller.cpp:71
+2020-03-05 16:15:40
+thread_pool0 epoll_ctl op = MOD fd = 10 event = { 10: OUT  } -- Epoller.cpp:109
+2020-03-05 16:15:40
+thread_pool0 fd total count 3 -- Epoller.cpp:29
+2020-03-05 16:15:40
+thread_pool0 1 events happened -- Epoller.cpp:36
+2020-03-05 16:15:40
+{10: OUT } -- EventLoop.cpp:69
+2020-03-05 16:15:40
+10: OUT  -- Channel.cpp:50
+2020-03-05 16:15:40
+thread_pool0 fd = 10 events = 4 index = 1 -- Epoller.cpp:71
+2020-03-05 16:15:40
+thread_pool0 epoll_ctl op = MOD fd = 10 event = { 10: OUT  } -- Epoller.cpp:109
+2020-03-05 16:15:40
+thread_pool0 fd = 10 events = 4 index = 1 -- Epoller.cpp:71
+2020-03-05 16:15:40
+thread_pool0 epoll_ctl op = MOD fd = 10 event = { 10: OUT  } -- Epoller.cpp:109
+2020-03-05 16:15:40
+thread_pool0 fd total count 3 -- Epoller.cpp:29
+2020-03-05 16:15:40
+thread_pool0 1 events happened -- Epoller.cpp:36
+2020-03-05 16:15:40
+{10: OUT } -- EventLoop.cpp:69
+2020-03-05 16:15:40
+10: OUT  -- Channel.cpp:50
+2020-03-05 16:15:40
+thread_pool0 fd = 10 events = 4 index = 1 -- Epoller.cpp:71
+2020-03-05 16:15:40
+thread_pool0 epoll_ctl op = MOD fd = 10 event = { 10: OUT  } -- Epoller.cpp:109
+2020-03-05 16:15:40
+thread_pool0 fd = 10 events = 4 index = 1 -- Epoller.cpp:71
+2020-03-05 16:15:40
+thread_pool0 epoll_ctl op = MOD fd = 10 event = { 10: OUT  } -- Epoller.cpp:109
+2020-03-05 16:15:40
+thread_pool0 fd total count 3 -- Epoller.cpp:29
+2020-03-05 16:15:41
+thread_pool0 1 events happened -- Epoller.cpp:36
+2020-03-05 16:15:41
+{10: OUT } -- EventLoop.cpp:69
+2020-03-05 16:15:41
+10: OUT  -- Channel.cpp:50
+2020-03-05 16:15:41
+thread_pool0 fd = 10 events = 4 index = 1 -- Epoller.cpp:71
+2020-03-05 16:15:41
+thread_pool0 epoll_ctl op = MOD fd = 10 event = { 10: OUT  } -- Epoller.cpp:109
+2020-03-05 16:15:41
+thread_pool0 fd = 10 events = 4 index = 1 -- Epoller.cpp:71
+2020-03-05 16:15:41
+thread_pool0 epoll_ctl op = MOD fd = 10 event = { 10: OUT  } -- Epoller.cpp:109
+2020-03-05 16:15:41
+thread_pool0 fd total count 3 -- Epoller.cpp:29
+2020-03-05 16:15:41
+thread_pool0 1 events happened -- Epoller.cpp:36
+2020-03-05 16:15:41
+{10: OUT } -- EventLoop.cpp:69
+2020-03-05 16:15:41
+10: OUT  -- Channel.cpp:50
+2020-03-05 16:15:41
+thread_pool0 fd = 10 events = 4 index = 1 -- Epoller.cpp:71
+2020-03-05 16:15:41
+thread_pool0 epoll_ctl op = MOD fd = 10 event = { 10: OUT  } -- Epoller.cpp:109
+2020-03-05 16:15:41
+thread_pool0 fd = 10 events = 4 index = 1 -- Epoller.cpp:71
+2020-03-05 16:15:41
+thread_pool0 epoll_ctl op = MOD fd = 10 event = { 10: OUT  } -- Epoller.cpp:109
+2020-03-05 16:15:41
+thread_pool0 fd total count 3 -- Epoller.cpp:29
+2020-03-05 16:15:41
+thread_pool0 1 events happened -- Epoller.cpp:36
+2020-03-05 16:15:41
+{10: OUT } -- EventLoop.cpp:69
+2020-03-05 16:15:41
+10: OUT  -- Channel.cpp:50
+2020-03-05 16:15:41
+thread_pool0 fd = 10 events = 4 index = 1 -- Epoller.cpp:71
+2020-03-05 16:15:41
+thread_pool0 epoll_ctl op = MOD fd = 10 event = { 10: OUT  } -- Epoller.cpp:109
+2020-03-05 16:15:41
+thread_pool0 fd = 10 events = 4 index = 1 -- Epoller.cpp:71
+2020-03-05 16:15:41
+thread_pool0 epoll_ctl op = MOD fd = 10 event = { 10: OUT  } -- Epoller.cpp:109
+2020-03-05 16:15:41
+thread_pool0 fd total count 3 -- Epoller.cpp:29
+2020-03-05 16:15:41
+thread_pool0 1 events happened -- Epoller.cpp:36
+2020-03-05 16:15:41
+{10: OUT } -- EventLoop.cpp:69
+2020-03-05 16:15:41
+10: OUT  -- Channel.cpp:50
+2020-03-05 16:15:41
+thread_pool0 fd = 10 events = 0 index = 1 -- Epoller.cpp:71
+2020-03-05 16:15:41
+thread_pool0 epoll_ctl op = DEL fd = 10 event = { 10:  } -- Epoller.cpp:109
+2020-03-05 16:15:41
+thread_pool0 fd = 10 events = -2147483645 index = 2 -- Epoller.cpp:71
+2020-03-05 16:15:41
+thread_pool0 epoll_ctl op = ADD fd = 10 event = { 10: IN PRI  } -- Epoller.cpp:109
+2020-03-05 16:15:41
+thread_pool0 fd total count 3 -- Epoller.cpp:29
+2020-03-05 16:15:50
+default nothing hanppened -- Epoller.cpp:43
+2020-03-05 16:15:50
+default fd total count 2 -- Epoller.cpp:29
+2020-03-05 16:15:51
+thread_pool0 nothing hanppened -- Epoller.cpp:43
+2020-03-05 16:15:51
+thread_pool0 fd = 10 events = 0 index = 1 -- Epoller.cpp:71
+2020-03-05 16:15:51
+thread_pool0 epoll_ctl op = DEL fd = 10 event = { 10:  } -- Epoller.cpp:109
+2020-03-05 16:15:51
+thread_pool0 fd = 10 -- Epoller.cpp:129
+2020-03-05 16:15:51
+thread_pool0 fd total count 2 -- Epoller.cpp:29
+2020-03-05 16:16:00
+default nothing hanppened -- Epoller.cpp:43
+2020-03-05 16:16:00
+default fd total count 2 -- Epoller.cpp:29
+2020-03-05 16:16:00
+thread_pool0 1 events happened -- Epoller.cpp:36
+2020-03-05 16:16:00
+{9: IN } -- EventLoop.cpp:69
+2020-03-05 16:16:00
+9: IN  -- Channel.cpp:50
+2020-03-05 16:16:00
+thread_pool0 fd = 9 events = 0 index = 1 -- Epoller.cpp:71
+2020-03-05 16:16:00
+thread_pool0 epoll_ctl op = DEL fd = 9 event = { 9:  } -- Epoller.cpp:109
+2020-03-05 16:16:00
+thread_pool0 fd = 9 -- Epoller.cpp:129
+2020-03-05 16:16:00
+thread_pool0 fd total count 1 -- Epoller.cpp:29
+2020-03-05 16:16:10
+default nothing hanppened -- Epoller.cpp:43
+2020-03-05 16:16:10
+default fd total count 2 -- Epoller.cpp:29
+2020-03-05 16:16:10
+thread_pool0 nothing hanppened -- Epoller.cpp:43
+2020-03-05 16:16:10
+thread_pool0 fd total count 1 -- Epoller.cpp:29
+2020-03-05 16:16:20
+default nothing hanppened -- Epoller.cpp:43
+2020-03-05 16:16:20
+default fd total count 2 -- Epoller.cpp:29
+2020-03-05 16:16:20
+thread_pool0 nothing hanppened -- Epoller.cpp:43
+2020-03-05 16:16:20
+thread_pool0 fd total count 1 -- Epoller.cpp:29
+2020-03-05 16:16:30
+default nothing hanppened -- Epoller.cpp:43
+2020-03-05 16:16:30
+default fd total count 2 -- Epoller.cpp:29
+2020-03-05 16:16:30
+thread_pool0 nothing hanppened -- Epoller.cpp:43
+2020-03-05 16:16:30
+thread_pool0 fd total count 1 -- Epoller.cpp:29
+2020-03-05 16:16:40
+default nothing hanppened -- Epoller.cpp:43
+2020-03-05 16:16:40
+default fd total count 2 -- Epoller.cpp:29
+2020-03-05 16:16:40
+thread_pool0 nothing hanppened -- Epoller.cpp:43
+2020-03-05 16:16:40
+thread_pool0 fd total count 1 -- Epoller.cpp:29
+2020-03-05 16:16:50
+default nothing hanppened -- Epoller.cpp:43
+2020-03-05 16:16:50
+default fd total count 2 -- Epoller.cpp:29
+2020-03-05 16:16:50
+thread_pool0 nothing hanppened -- Epoller.cpp:43
+2020-03-05 16:16:50
+thread_pool0 fd total count 1 -- Epoller.cpp:29
+2020-03-05 16:17:00
+default nothing hanppened -- Epoller.cpp:43
+2020-03-05 16:17:00
+default fd total count 2 -- Epoller.cpp:29
+2020-03-05 16:17:00
+thread_pool0 nothing hanppened -- Epoller.cpp:43
+2020-03-05 16:17:00
+thread_pool0 fd total count 1 -- Epoller.cpp:29
+2020-03-05 16:17:10
+default nothing hanppened -- Epoller.cpp:43
+2020-03-05 16:17:10
+default fd total count 2 -- Epoller.cpp:29
+2020-03-05 16:17:10
+thread_pool0 nothing hanppened -- Epoller.cpp:43
+2020-03-05 16:17:10
+thread_pool0 fd total count 1 -- Epoller.cpp:29
+2020-03-05 16:17:20
+default nothing hanppened -- Epoller.cpp:43
+2020-03-05 16:17:20
+default fd total count 2 -- Epoller.cpp:29
+2020-03-05 16:17:20
+thread_pool0 nothing hanppened -- Epoller.cpp:43
+2020-03-05 16:17:20
+thread_pool0 fd total count 1 -- Epoller.cpp:29
+2020-03-05 16:17:30
+default nothing hanppened -- Epoller.cpp:43
+2020-03-05 16:17:30
+default fd total count 2 -- Epoller.cpp:29
+2020-03-05 16:17:30
+thread_pool0 nothing hanppened -- Epoller.cpp:43
+2020-03-05 16:17:30
+thread_pool0 fd total count 1 -- Epoller.cpp:29
+2020-03-05 16:17:40
+default nothing hanppened -- Epoller.cpp:43
+2020-03-05 16:17:40
+default fd total count 2 -- Epoller.cpp:29
+2020-03-05 16:17:40
+thread_pool0 nothing hanppened -- Epoller.cpp:43
+2020-03-05 16:17:40
+thread_pool0 fd total count 1 -- Epoller.cpp:29
+2020-03-05 16:17:50
+default nothing hanppened -- Epoller.cpp:43
+2020-03-05 16:17:50
+default fd total count 2 -- Epoller.cpp:29
+2020-03-05 16:17:50
+thread_pool0 nothing hanppened -- Epoller.cpp:43
+2020-03-05 16:17:50
+thread_pool0 fd total count 1 -- Epoller.cpp:29
+2020-03-05 16:18:00
+default nothing hanppened -- Epoller.cpp:43
+2020-03-05 16:18:00
+default fd total count 2 -- Epoller.cpp:29
+2020-03-05 16:18:00
+thread_pool0 nothing hanppened -- Epoller.cpp:43
+2020-03-05 16:18:00
+thread_pool0 fd total count 1 -- Epoller.cpp:29
+2020-03-05 16:18:10
+default nothing hanppened -- Epoller.cpp:43
+2020-03-05 16:18:10
+default fd total count 2 -- Epoller.cpp:29
+2020-03-05 16:18:10
+thread_pool0 nothing hanppened -- Epoller.cpp:43
+2020-03-05 16:18:10
+thread_pool0 fd total count 1 -- Epoller.cpp:29
+2020-03-05 16:18:20
+default nothing hanppened -- Epoller.cpp:43
+2020-03-05 16:18:20
+default fd total count 2 -- Epoller.cpp:29
+2020-03-05 16:18:20
+thread_pool0 nothing hanppened -- Epoller.cpp:43
+2020-03-05 16:18:20
+thread_pool0 fd total count 1 -- Epoller.cpp:29
+2020-03-05 16:18:30
+default nothing hanppened -- Epoller.cpp:43
+2020-03-05 16:18:30
+default fd total count 2 -- Epoller.cpp:29
+2020-03-05 16:18:30
+thread_pool0 nothing hanppened -- Epoller.cpp:43
+2020-03-05 16:18:30
+thread_pool0 fd total count 1 -- Epoller.cpp:29
+2020-03-05 16:18:40
+default nothing hanppened -- Epoller.cpp:43
+2020-03-05 16:18:40
+default fd total count 2 -- Epoller.cpp:29
+2020-03-05 16:18:40
+thread_pool0 nothing hanppened -- Epoller.cpp:43
+2020-03-05 16:18:40
+thread_pool0 fd total count 1 -- Epoller.cpp:29
+2020-03-05 16:18:50
+default nothing hanppened -- Epoller.cpp:43
+2020-03-05 16:18:50
+default fd total count 2 -- Epoller.cpp:29
+2020-03-05 16:18:50
+thread_pool0 nothing hanppened -- Epoller.cpp:43
+2020-03-05 16:18:50
+thread_pool0 fd total count 1 -- Epoller.cpp:29
+2020-03-05 16:19:00
+default nothing hanppened -- Epoller.cpp:43
+2020-03-05 16:19:00
+default fd total count 2 -- Epoller.cpp:29
+2020-03-05 16:19:00
+thread_pool0 nothing hanppened -- Epoller.cpp:43
+2020-03-05 16:19:00
+thread_pool0 fd total count 1 -- Epoller.cpp:29
+2020-03-05 16:19:10
+default nothing hanppened -- Epoller.cpp:43
+2020-03-05 16:19:10
+default fd total count 2 -- Epoller.cpp:29
+2020-03-05 16:19:10
+thread_pool0 nothing hanppened -- Epoller.cpp:43
+2020-03-05 16:19:10
+thread_pool0 fd total count 1 -- Epoller.cpp:29
+2020-03-05 16:19:20
+default nothing hanppened -- Epoller.cpp:43
+2020-03-05 16:19:20
+default fd total count 2 -- Epoller.cpp:29
+2020-03-05 16:19:20
+thread_pool0 nothing hanppened -- Epoller.cpp:43
+2020-03-05 16:19:20
+thread_pool0 fd total count 1 -- Epoller.cpp:29
+2020-03-05 16:19:30
+default nothing hanppened -- Epoller.cpp:43
+2020-03-05 16:19:30
+default fd total count 2 -- Epoller.cpp:29
+2020-03-05 16:19:30
+thread_pool0 nothing hanppened -- Epoller.cpp:43
+2020-03-05 16:19:30
+thread_pool0 fd total count 1 -- Epoller.cpp:29
+2020-03-05 16:19:40
+default nothing hanppened -- Epoller.cpp:43
+2020-03-05 16:19:40
+default fd total count 2 -- Epoller.cpp:29
+2020-03-05 16:19:40
+thread_pool0 nothing hanppened -- Epoller.cpp:43
+2020-03-05 16:19:40
+thread_pool0 fd total count 1 -- Epoller.cpp:29
+2020-03-05 16:19:50
+default nothing hanppened -- Epoller.cpp:43
+2020-03-05 16:19:50
+default fd total count 2 -- Epoller.cpp:29
+2020-03-05 16:19:50
+thread_pool0 nothing hanppened -- Epoller.cpp:43
+2020-03-05 16:19:50
+thread_pool0 fd total count 1 -- Epoller.cpp:29
+2020-03-05 16:20:00
+default nothing hanppened -- Epoller.cpp:43
+2020-03-05 16:20:00
+default fd total count 2 -- Epoller.cpp:29
+2020-03-05 16:20:00
+thread_pool0 nothing hanppened -- Epoller.cpp:43
+2020-03-05 16:20:00
+thread_pool0 fd total count 1 -- Epoller.cpp:29
+2020-03-05 16:20:10
+default nothing hanppened -- Epoller.cpp:43
+2020-03-05 16:20:10
+default fd total count 2 -- Epoller.cpp:29
+2020-03-05 16:20:29
+Eventloop created in thread0 -- EventLoop.cpp:31
+2020-03-05 16:20:29
+default fd = 4 events = -2147483645 index = -1 -- Epoller.cpp:71
+2020-03-05 16:20:29
+default epoll_ctl op = ADD fd = 4 event = { 4: IN PRI  } -- Epoller.cpp:109
+2020-03-05 16:20:29
+listen  port:80 -- Operation.cpp:41
+2020-03-05 16:20:29
+Eventloop created in thread30256 -- EventLoop.cpp:31
+2020-03-05 16:20:29
+thread_pool0 fd = 8 events = -2147483645 index = -1 -- Epoller.cpp:71
+2020-03-05 16:20:29
+thread_pool0 epoll_ctl op = ADD fd = 8 event = { 8: IN PRI  } -- Epoller.cpp:109
+2020-03-05 16:20:29
+EventLoop start looping -- EventLoop.cpp:61
+2020-03-05 16:20:29
+thread_pool0 fd total count 1 -- Epoller.cpp:29
+2020-03-05 16:20:29
+default fd = 6 events = -2147483645 index = -1 -- Epoller.cpp:71
+2020-03-05 16:20:29
+default epoll_ctl op = ADD fd = 6 event = { 6: IN PRI  } -- Epoller.cpp:109
+2020-03-05 16:20:29
+EventLoop start looping -- EventLoop.cpp:61
+2020-03-05 16:20:29
+default fd total count 2 -- Epoller.cpp:29
+2020-03-05 16:20:34
+default 1 events happened -- Epoller.cpp:36
+2020-03-05 16:20:34
+{6: IN } -- EventLoop.cpp:69
+2020-03-05 16:20:34
+6: IN  -- Channel.cpp:50
+2020-03-05 16:20:34
+New connection from 112.11.87.60:27067 -- Server.cpp:60
+2020-03-05 16:20:34
+default fd total count 2 -- Epoller.cpp:29
+2020-03-05 16:20:34
+thread_pool0 1 events happened -- Epoller.cpp:36
+2020-03-05 16:20:34
+{8: IN } -- EventLoop.cpp:69
+2020-03-05 16:20:34
+8: IN  -- Channel.cpp:50
+2020-03-05 16:20:34
+thread_pool0 fd = 9 events = -2147483645 index = -1 -- Epoller.cpp:71
+2020-03-05 16:20:34
+thread_pool0 epoll_ctl op = ADD fd = 9 event = { 9: IN PRI  } -- Epoller.cpp:109
+2020-03-05 16:20:34
+thread_pool0 fd total count 2 -- Epoller.cpp:29
+2020-03-05 16:20:34
+thread_pool0 1 events happened -- Epoller.cpp:36
+2020-03-05 16:20:34
+{9: IN } -- EventLoop.cpp:69
+2020-03-05 16:20:34
+9: IN  -- Channel.cpp:50
+2020-03-05 16:20:34
+thread_pool0 fd = 9 events = -2147483645 index = 1 -- Epoller.cpp:71
+2020-03-05 16:20:34
+thread_pool0 epoll_ctl op = MOD fd = 9 event = { 9: IN PRI  } -- Epoller.cpp:109
+2020-03-05 16:20:34
+thread_pool0 fd total count 2 -- Epoller.cpp:29
+2020-03-05 16:20:34
+default 1 events happened -- Epoller.cpp:36
+2020-03-05 16:20:34
+{6: IN } -- EventLoop.cpp:69
+2020-03-05 16:20:34
+6: IN  -- Channel.cpp:50
+2020-03-05 16:20:34
+New connection from 112.11.87.60:26484 -- Server.cpp:60
+2020-03-05 16:20:34
+default fd total count 2 -- Epoller.cpp:29
+2020-03-05 16:20:34
+thread_pool0 1 events happened -- Epoller.cpp:36
+2020-03-05 16:20:34
+{8: IN } -- EventLoop.cpp:69
+2020-03-05 16:20:34
+8: IN  -- Channel.cpp:50
+2020-03-05 16:20:34
+thread_pool0 fd = 10 events = -2147483645 index = -1 -- Epoller.cpp:71
+2020-03-05 16:20:34
+thread_pool0 epoll_ctl op = ADD fd = 10 event = { 10: IN PRI  } -- Epoller.cpp:109
+2020-03-05 16:20:34
+thread_pool0 fd total count 3 -- Epoller.cpp:29
+2020-03-05 16:20:34
+thread_pool0 1 events happened -- Epoller.cpp:36
+2020-03-05 16:20:34
+{9: IN } -- EventLoop.cpp:69
+2020-03-05 16:20:34
+9: IN  -- Channel.cpp:50
+2020-03-05 16:20:34
+thread_pool0 fd = 9 events = -2147483641 index = 1 -- Epoller.cpp:71
+2020-03-05 16:20:34
+thread_pool0 epoll_ctl op = MOD fd = 9 event = { 9: IN PRI OUT  } -- Epoller.cpp:109
+2020-03-05 16:20:34
+thread_pool0 fd = 9 events = 4 index = 1 -- Epoller.cpp:71
+2020-03-05 16:20:34
+thread_pool0 epoll_ctl op = MOD fd = 9 event = { 9: OUT  } -- Epoller.cpp:109
+2020-03-05 16:20:34
+thread_pool0 fd total count 3 -- Epoller.cpp:29
+2020-03-05 16:20:34
+thread_pool0 1 events happened -- Epoller.cpp:36
+2020-03-05 16:20:34
+{9: OUT } -- EventLoop.cpp:69
+2020-03-05 16:20:34
+9: OUT  -- Channel.cpp:50
+2020-03-05 16:20:34
+thread_pool0 fd = 9 events = 4 index = 1 -- Epoller.cpp:71
+2020-03-05 16:20:34
+thread_pool0 epoll_ctl op = MOD fd = 9 event = { 9: OUT  } -- Epoller.cpp:109
+2020-03-05 16:20:34
+thread_pool0 fd = 9 events = 4 index = 1 -- Epoller.cpp:71
+2020-03-05 16:20:34
+thread_pool0 epoll_ctl op = MOD fd = 9 event = { 9: OUT  } -- Epoller.cpp:109
+2020-03-05 16:20:34
+thread_pool0 fd total count 3 -- Epoller.cpp:29
+2020-03-05 16:20:35
+thread_pool0 1 events happened -- Epoller.cpp:36
+2020-03-05 16:20:35
+{9: OUT } -- EventLoop.cpp:69
+2020-03-05 16:20:35
+9: OUT  -- Channel.cpp:50
+2020-03-05 16:20:35
+thread_pool0 fd = 9 events = 4 index = 1 -- Epoller.cpp:71
+2020-03-05 16:20:35
+thread_pool0 epoll_ctl op = MOD fd = 9 event = { 9: OUT  } -- Epoller.cpp:109
+2020-03-05 16:20:35
+thread_pool0 fd = 9 events = 4 index = 1 -- Epoller.cpp:71
+2020-03-05 16:20:35
+thread_pool0 epoll_ctl op = MOD fd = 9 event = { 9: OUT  } -- Epoller.cpp:109
+2020-03-05 16:20:35
+thread_pool0 fd total count 3 -- Epoller.cpp:29
+2020-03-05 16:20:35
+thread_pool0 1 events happened -- Epoller.cpp:36
+2020-03-05 16:20:35
+{9: OUT } -- EventLoop.cpp:69
+2020-03-05 16:20:35
+9: OUT  -- Channel.cpp:50
+2020-03-05 16:20:35
+thread_pool0 fd = 9 events = 4 index = 1 -- Epoller.cpp:71
+2020-03-05 16:20:35
+thread_pool0 epoll_ctl op = MOD fd = 9 event = { 9: OUT  } -- Epoller.cpp:109
+2020-03-05 16:20:35
+thread_pool0 fd = 9 events = 4 index = 1 -- Epoller.cpp:71
+2020-03-05 16:20:35
+thread_pool0 epoll_ctl op = MOD fd = 9 event = { 9: OUT  } -- Epoller.cpp:109
+2020-03-05 16:20:35
+thread_pool0 fd total count 3 -- Epoller.cpp:29
+2020-03-05 16:20:35
+thread_pool0 1 events happened -- Epoller.cpp:36
+2020-03-05 16:20:35
+{9: OUT } -- EventLoop.cpp:69
+2020-03-05 16:20:35
+9: OUT  -- Channel.cpp:50
+2020-03-05 16:20:35
+thread_pool0 fd = 9 events = 4 index = 1 -- Epoller.cpp:71
+2020-03-05 16:20:35
+thread_pool0 epoll_ctl op = MOD fd = 9 event = { 9: OUT  } -- Epoller.cpp:109
+2020-03-05 16:20:35
+thread_pool0 fd = 9 events = 4 index = 1 -- Epoller.cpp:71
+2020-03-05 16:20:35
+thread_pool0 epoll_ctl op = MOD fd = 9 event = { 9: OUT  } -- Epoller.cpp:109
+2020-03-05 16:20:35
+thread_pool0 fd total count 3 -- Epoller.cpp:29
+2020-03-05 16:20:36
+thread_pool0 1 events happened -- Epoller.cpp:36
+2020-03-05 16:20:36
+{9: OUT } -- EventLoop.cpp:69
+2020-03-05 16:20:36
+9: OUT  -- Channel.cpp:50
+2020-03-05 16:20:36
+thread_pool0 fd = 9 events = 4 index = 1 -- Epoller.cpp:71
+2020-03-05 16:20:36
+thread_pool0 epoll_ctl op = MOD fd = 9 event = { 9: OUT  } -- Epoller.cpp:109
+2020-03-05 16:20:36
+thread_pool0 fd = 9 events = 4 index = 1 -- Epoller.cpp:71
+2020-03-05 16:20:36
+thread_pool0 epoll_ctl op = MOD fd = 9 event = { 9: OUT  } -- Epoller.cpp:109
+2020-03-05 16:20:36
+thread_pool0 fd total count 3 -- Epoller.cpp:29
+2020-03-05 16:20:36
+thread_pool0 1 events happened -- Epoller.cpp:36
+2020-03-05 16:20:36
+{9: OUT } -- EventLoop.cpp:69
+2020-03-05 16:20:36
+9: OUT  -- Channel.cpp:50
+2020-03-05 16:20:36
+thread_pool0 fd = 9 events = 4 index = 1 -- Epoller.cpp:71
+2020-03-05 16:20:36
+thread_pool0 epoll_ctl op = MOD fd = 9 event = { 9: OUT  } -- Epoller.cpp:109
+2020-03-05 16:20:36
+thread_pool0 fd = 9 events = 4 index = 1 -- Epoller.cpp:71
+2020-03-05 16:20:36
+thread_pool0 epoll_ctl op = MOD fd = 9 event = { 9: OUT  } -- Epoller.cpp:109
+2020-03-05 16:20:36
+thread_pool0 fd total count 3 -- Epoller.cpp:29
+2020-03-05 16:20:36
+thread_pool0 1 events happened -- Epoller.cpp:36
+2020-03-05 16:20:36
+{9: OUT } -- EventLoop.cpp:69
+2020-03-05 16:20:36
+9: OUT  -- Channel.cpp:50
+2020-03-05 16:20:36
+thread_pool0 fd = 9 events = 4 index = 1 -- Epoller.cpp:71
+2020-03-05 16:20:36
+thread_pool0 epoll_ctl op = MOD fd = 9 event = { 9: OUT  } -- Epoller.cpp:109
+2020-03-05 16:20:36
+thread_pool0 fd = 9 events = 4 index = 1 -- Epoller.cpp:71
+2020-03-05 16:20:36
+thread_pool0 epoll_ctl op = MOD fd = 9 event = { 9: OUT  } -- Epoller.cpp:109
+2020-03-05 16:20:36
+thread_pool0 fd total count 3 -- Epoller.cpp:29
+2020-03-05 16:20:36
+thread_pool0 1 events happened -- Epoller.cpp:36
+2020-03-05 16:20:36
+{9: OUT } -- EventLoop.cpp:69
+2020-03-05 16:20:36
+9: OUT  -- Channel.cpp:50
+2020-03-05 16:20:36
+thread_pool0 fd = 9 events = 0 index = 1 -- Epoller.cpp:71
+2020-03-05 16:20:36
+thread_pool0 epoll_ctl op = DEL fd = 9 event = { 9:  } -- Epoller.cpp:109
+2020-03-05 16:20:36
+thread_pool0 fd = 9 events = -2147483645 index = 2 -- Epoller.cpp:71
+2020-03-05 16:20:36
+thread_pool0 epoll_ctl op = ADD fd = 9 event = { 9: IN PRI  } -- Epoller.cpp:109
+2020-03-05 16:20:36
+thread_pool0 fd total count 3 -- Epoller.cpp:29
+2020-03-05 16:20:44
+default nothing hanppened -- Epoller.cpp:43
+2020-03-05 16:20:44
+default fd total count 2 -- Epoller.cpp:29
+2020-03-05 16:20:46
+thread_pool0 nothing hanppened -- Epoller.cpp:43
+2020-03-05 16:20:46
+thread_pool0 fd = 9 events = 0 index = 1 -- Epoller.cpp:71
+2020-03-05 16:20:46
+thread_pool0 epoll_ctl op = DEL fd = 9 event = { 9:  } -- Epoller.cpp:109
+2020-03-05 16:20:46
+thread_pool0 fd = 9 -- Epoller.cpp:129
+2020-03-05 16:20:46
+thread_pool0 fd total count 2 -- Epoller.cpp:29
+2020-03-05 16:20:54
+default nothing hanppened -- Epoller.cpp:43
+2020-03-05 16:20:54
+default fd total count 2 -- Epoller.cpp:29
+2020-03-05 16:20:55
+thread_pool0 1 events happened -- Epoller.cpp:36
+2020-03-05 16:20:55
+{10: IN } -- EventLoop.cpp:69
+2020-03-05 16:20:55
+10: IN  -- Channel.cpp:50
+2020-03-05 16:20:55
+thread_pool0 fd = 10 events = 0 index = 1 -- Epoller.cpp:71
+2020-03-05 16:20:55
+thread_pool0 epoll_ctl op = DEL fd = 10 event = { 10:  } -- Epoller.cpp:109
+2020-03-05 16:20:55
+thread_pool0 fd = 10 -- Epoller.cpp:129
+2020-03-05 16:20:55
+thread_pool0 fd total count 1 -- Epoller.cpp:29
+2020-03-05 16:21:04
+default nothing hanppened -- Epoller.cpp:43
+2020-03-05 16:21:04
+default fd total count 2 -- Epoller.cpp:29
+2020-03-05 16:21:05
+thread_pool0 nothing hanppened -- Epoller.cpp:43
+2020-03-05 16:21:05
+thread_pool0 fd total count 1 -- Epoller.cpp:29
+2020-03-05 16:32:24
+Eventloop created in thread0 -- EventLoop.cpp:31
+2020-03-05 16:32:24
+default fd = 4 events = -2147483645 index = -1 -- Epoller.cpp:71
+2020-03-05 16:32:24
+default epoll_ctl op = ADD fd = 4 event = { 4: IN PRI  } -- Epoller.cpp:109
+2020-03-05 16:32:24
+listen  port:80 -- Operation.cpp:41
+2020-03-05 16:32:24
+Eventloop created in thread30438 -- EventLoop.cpp:31
+2020-03-05 16:32:24
+thread_pool0 fd = 8 events = -2147483645 index = -1 -- Epoller.cpp:71
+2020-03-05 16:32:24
+thread_pool0 epoll_ctl op = ADD fd = 8 event = { 8: IN PRI  } -- Epoller.cpp:109
+2020-03-05 16:32:24
+EventLoop start looping -- EventLoop.cpp:61
+2020-03-05 16:32:24
+thread_pool0 fd total count 1 -- Epoller.cpp:29
+2020-03-05 16:32:24
+default fd = 6 events = -2147483645 index = -1 -- Epoller.cpp:71
+2020-03-05 16:32:24
+default epoll_ctl op = ADD fd = 6 event = { 6: IN PRI  } -- Epoller.cpp:109
+2020-03-05 16:32:24
+EventLoop start looping -- EventLoop.cpp:61
+2020-03-05 16:32:24
+default fd total count 2 -- Epoller.cpp:29
+2020-03-05 16:32:31
+default 1 events happened -- Epoller.cpp:36
+2020-03-05 16:32:31
+{6: IN } -- EventLoop.cpp:69
+2020-03-05 16:32:31
+6: IN  -- Channel.cpp:50
+2020-03-05 16:32:31
+New connection from 112.11.87.60:25731 -- Server.cpp:60
+2020-03-05 16:32:31
+default fd total count 2 -- Epoller.cpp:29
+2020-03-05 16:32:31
+thread_pool0 1 events happened -- Epoller.cpp:36
+2020-03-05 16:32:31
+{8: IN } -- EventLoop.cpp:69
+2020-03-05 16:32:31
+8: IN  -- Channel.cpp:50
+2020-03-05 16:32:31
+thread_pool0 fd = 9 events = -2147483645 index = -1 -- Epoller.cpp:71
+2020-03-05 16:32:31
+thread_pool0 epoll_ctl op = ADD fd = 9 event = { 9: IN PRI  } -- Epoller.cpp:109
+2020-03-05 16:32:31
+thread_pool0 fd total count 2 -- Epoller.cpp:29
+2020-03-05 16:32:31
+default 1 events happened -- Epoller.cpp:36
+2020-03-05 16:32:31
+{6: IN } -- EventLoop.cpp:69
+2020-03-05 16:32:31
+6: IN  -- Channel.cpp:50
+2020-03-05 16:32:31
+New connection from 112.11.87.60:26366 -- Server.cpp:60
+2020-03-05 16:32:31
+default fd total count 2 -- Epoller.cpp:29
+2020-03-05 16:32:31
+thread_pool0 1 events happened -- Epoller.cpp:36
+2020-03-05 16:32:31
+{8: IN } -- EventLoop.cpp:69
+2020-03-05 16:32:31
+8: IN  -- Channel.cpp:50
+2020-03-05 16:32:31
+thread_pool0 fd = 10 events = -2147483645 index = -1 -- Epoller.cpp:71
+2020-03-05 16:32:31
+thread_pool0 epoll_ctl op = ADD fd = 10 event = { 10: IN PRI  } -- Epoller.cpp:109
+2020-03-05 16:32:31
+thread_pool0 fd total count 3 -- Epoller.cpp:29
+2020-03-05 16:32:31
+thread_pool0 1 events happened -- Epoller.cpp:36
+2020-03-05 16:32:31
+{9: IN } -- EventLoop.cpp:69
+2020-03-05 16:32:31
+9: IN  -- Channel.cpp:50
+2020-03-05 16:32:31
+thread_pool0 fd = 9 events = -2147483645 index = 1 -- Epoller.cpp:71
+2020-03-05 16:32:31
+thread_pool0 epoll_ctl op = MOD fd = 9 event = { 9: IN PRI  } -- Epoller.cpp:109
+2020-03-05 16:32:31
+thread_pool0 fd total count 3 -- Epoller.cpp:29
+2020-03-05 16:32:31
+thread_pool0 1 events happened -- Epoller.cpp:36
+2020-03-05 16:32:31
+{9: IN } -- EventLoop.cpp:69
+2020-03-05 16:32:31
+9: IN  -- Channel.cpp:50
+2020-03-05 16:32:31
+thread_pool0 fd = 9 events = -2147483641 index = 1 -- Epoller.cpp:71
+2020-03-05 16:32:31
+thread_pool0 epoll_ctl op = MOD fd = 9 event = { 9: IN PRI OUT  } -- Epoller.cpp:109
+2020-03-05 16:32:31
+thread_pool0 fd = 9 events = 4 index = 1 -- Epoller.cpp:71
+2020-03-05 16:32:31
+thread_pool0 epoll_ctl op = MOD fd = 9 event = { 9: OUT  } -- Epoller.cpp:109
+2020-03-05 16:32:31
+thread_pool0 fd total count 3 -- Epoller.cpp:29
+2020-03-05 16:32:31
+thread_pool0 1 events happened -- Epoller.cpp:36
+2020-03-05 16:32:31
+{9: OUT } -- EventLoop.cpp:69
+2020-03-05 16:32:31
+9: OUT  -- Channel.cpp:50
+2020-03-05 16:32:31
+thread_pool0 fd = 9 events = 4 index = 1 -- Epoller.cpp:71
+2020-03-05 16:32:31
+thread_pool0 epoll_ctl op = MOD fd = 9 event = { 9: OUT  } -- Epoller.cpp:109
+2020-03-05 16:32:31
+thread_pool0 fd = 9 events = 4 index = 1 -- Epoller.cpp:71
+2020-03-05 16:32:31
+thread_pool0 epoll_ctl op = MOD fd = 9 event = { 9: OUT  } -- Epoller.cpp:109
+2020-03-05 16:32:31
+thread_pool0 fd total count 3 -- Epoller.cpp:29
+2020-03-05 16:32:31
+thread_pool0 1 events happened -- Epoller.cpp:36
+2020-03-05 16:32:31
+{9: OUT } -- EventLoop.cpp:69
+2020-03-05 16:32:31
+9: OUT  -- Channel.cpp:50
+2020-03-05 16:32:31
+thread_pool0 fd = 9 events = 4 index = 1 -- Epoller.cpp:71
+2020-03-05 16:32:31
+thread_pool0 epoll_ctl op = MOD fd = 9 event = { 9: OUT  } -- Epoller.cpp:109
+2020-03-05 16:32:31
+thread_pool0 fd = 9 events = 4 index = 1 -- Epoller.cpp:71
+2020-03-05 16:32:31
+thread_pool0 epoll_ctl op = MOD fd = 9 event = { 9: OUT  } -- Epoller.cpp:109
+2020-03-05 16:32:31
+thread_pool0 fd total count 3 -- Epoller.cpp:29
+2020-03-05 16:32:31
+thread_pool0 1 events happened -- Epoller.cpp:36
+2020-03-05 16:32:31
+{9: OUT } -- EventLoop.cpp:69
+2020-03-05 16:32:31
+9: OUT  -- Channel.cpp:50
+2020-03-05 16:32:31
+thread_pool0 fd = 9 events = 4 index = 1 -- Epoller.cpp:71
+2020-03-05 16:32:31
+thread_pool0 epoll_ctl op = MOD fd = 9 event = { 9: OUT  } -- Epoller.cpp:109
+2020-03-05 16:32:31
+thread_pool0 fd = 9 events = 4 index = 1 -- Epoller.cpp:71
+2020-03-05 16:32:31
+thread_pool0 epoll_ctl op = MOD fd = 9 event = { 9: OUT  } -- Epoller.cpp:109
+2020-03-05 16:32:31
+thread_pool0 fd total count 3 -- Epoller.cpp:29
+2020-03-05 16:32:32
+thread_pool0 1 events happened -- Epoller.cpp:36
+2020-03-05 16:32:32
+{9: OUT } -- EventLoop.cpp:69
+2020-03-05 16:32:32
+9: OUT  -- Channel.cpp:50
+2020-03-05 16:32:32
+thread_pool0 fd = 9 events = 4 index = 1 -- Epoller.cpp:71
+2020-03-05 16:32:32
+thread_pool0 epoll_ctl op = MOD fd = 9 event = { 9: OUT  } -- Epoller.cpp:109
+2020-03-05 16:32:32
+thread_pool0 fd = 9 events = 4 index = 1 -- Epoller.cpp:71
+2020-03-05 16:32:32
+thread_pool0 epoll_ctl op = MOD fd = 9 event = { 9: OUT  } -- Epoller.cpp:109
+2020-03-05 16:32:32
+thread_pool0 fd total count 3 -- Epoller.cpp:29
+2020-03-05 16:32:33
+thread_pool0 1 events happened -- Epoller.cpp:36
+2020-03-05 16:32:33
+{9: OUT } -- EventLoop.cpp:69
+2020-03-05 16:32:33
+9: OUT  -- Channel.cpp:50
+2020-03-05 16:32:33
+thread_pool0 fd = 9 events = 4 index = 1 -- Epoller.cpp:71
+2020-03-05 16:32:33
+thread_pool0 epoll_ctl op = MOD fd = 9 event = { 9: OUT  } -- Epoller.cpp:109
+2020-03-05 16:32:33
+thread_pool0 fd = 9 events = 4 index = 1 -- Epoller.cpp:71
+2020-03-05 16:32:33
+thread_pool0 epoll_ctl op = MOD fd = 9 event = { 9: OUT  } -- Epoller.cpp:109
+2020-03-05 16:32:33
+thread_pool0 fd total count 3 -- Epoller.cpp:29
+2020-03-05 16:32:33
+thread_pool0 1 events happened -- Epoller.cpp:36
+2020-03-05 16:32:33
+{9: OUT } -- EventLoop.cpp:69
+2020-03-05 16:32:33
+9: OUT  -- Channel.cpp:50
+2020-03-05 16:32:33
+thread_pool0 fd = 9 events = 4 index = 1 -- Epoller.cpp:71
+2020-03-05 16:32:33
+thread_pool0 epoll_ctl op = MOD fd = 9 event = { 9: OUT  } -- Epoller.cpp:109
+2020-03-05 16:32:33
+thread_pool0 fd = 9 events = 4 index = 1 -- Epoller.cpp:71
+2020-03-05 16:32:33
+thread_pool0 epoll_ctl op = MOD fd = 9 event = { 9: OUT  } -- Epoller.cpp:109
+2020-03-05 16:32:33
+thread_pool0 fd total count 3 -- Epoller.cpp:29
+2020-03-05 16:32:36
+thread_pool0 1 events happened -- Epoller.cpp:36
+2020-03-05 16:32:36
+{9: OUT } -- EventLoop.cpp:69
+2020-03-05 16:32:36
+9: OUT  -- Channel.cpp:50
+2020-03-05 16:32:36
+thread_pool0 fd = 9 events = 0 index = 1 -- Epoller.cpp:71
+2020-03-05 16:32:36
+thread_pool0 epoll_ctl op = DEL fd = 9 event = { 9:  } -- Epoller.cpp:109
+2020-03-05 16:32:36
+thread_pool0 fd = 9 events = -2147483645 index = 2 -- Epoller.cpp:71
+2020-03-05 16:32:36
+thread_pool0 epoll_ctl op = ADD fd = 9 event = { 9: IN PRI  } -- Epoller.cpp:109
+2020-03-05 16:32:36
+thread_pool0 fd total count 3 -- Epoller.cpp:29
+2020-03-05 16:32:41
+default nothing hanppened -- Epoller.cpp:43
+2020-03-05 16:32:41
+default fd total count 2 -- Epoller.cpp:29
+2020-03-05 16:32:46
+thread_pool0 nothing hanppened -- Epoller.cpp:43
+2020-03-05 16:32:46
+thread_pool0 fd = 9 events = 0 index = 1 -- Epoller.cpp:71
+2020-03-05 16:32:46
+thread_pool0 epoll_ctl op = DEL fd = 9 event = { 9:  } -- Epoller.cpp:109
+2020-03-05 16:32:46
+thread_pool0 fd = 9 -- Epoller.cpp:129
+2020-03-05 16:32:46
+thread_pool0 fd total count 2 -- Epoller.cpp:29
+2020-03-05 16:32:51
+default nothing hanppened -- Epoller.cpp:43
+2020-03-05 16:32:51
+default fd total count 2 -- Epoller.cpp:29
+2020-03-05 16:32:52
+thread_pool0 1 events happened -- Epoller.cpp:36
+2020-03-05 16:32:52
+{10: IN } -- EventLoop.cpp:69
+2020-03-05 16:32:52
+10: IN  -- Channel.cpp:50
+2020-03-05 16:32:52
+thread_pool0 fd = 10 events = 0 index = 1 -- Epoller.cpp:71
+2020-03-05 16:32:52
+thread_pool0 epoll_ctl op = DEL fd = 10 event = { 10:  } -- Epoller.cpp:109
+2020-03-05 16:32:52
+thread_pool0 fd = 10 -- Epoller.cpp:129
+2020-03-05 16:32:52
+thread_pool0 fd total count 1 -- Epoller.cpp:29
+2020-03-05 16:33:01
+default nothing hanppened -- Epoller.cpp:43
+2020-03-05 16:33:01
+default fd total count 2 -- Epoller.cpp:29
+2020-03-05 16:33:02
+thread_pool0 nothing hanppened -- Epoller.cpp:43
+2020-03-05 16:33:02
+thread_pool0 fd total count 1 -- Epoller.cpp:29
