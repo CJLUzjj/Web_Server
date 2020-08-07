@@ -28,7 +28,7 @@ make
 ./server
 ```
 
-测试页（我的简历）：http://zhujjqaq.xyz （请使用Chrome浏览器打开）
+测试页（我的简历）：
 
  
 项目结构如下:  
